@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" type="image/png" href="images/logoss.png">
-	<title>Portfolio | DANĚK</title>
+	<title>Home | DANĚK</title>
 	<link rel="stylesheet" type="text/css" href="styly.css">
 </head>
 <body>
@@ -13,15 +13,23 @@
 	<div id="header">
 		<div class="container">
 			<nav>
-				<a href="home"><img src="images/logos.png" class="logo"></a> 
+				<a href="home"><img id="image" src="images/logos.png" class="logo"></a> 
 				<ul>
 					<li class="ou"><a href="portfolio">Portfolio</a></li>
 					<li class="ou"><a href="profil">Info</a></li>
 				</ul>
+
 			</nav>
 		</div>	
+		<div class="header-text">
+			<p>Designer z České republiky.<br>
+				<em>graphic design, motion design, ux/ui design</em>
+			</p>
+		</div>	
 	</div>
+
 	<!-------------portfolio-------->
+
 	<div id="portfolio">
 		<div class="work-container">
 			<div class="colum">
@@ -31,10 +39,10 @@
 					loading="lazy"
 					role="presentation"
 					srcset="
-					images/work 01.png?width=100 100w,
-					images/work 01.png?width=200 200w,
-					images/work 01.png?width=400 400w,
-					images/work 01.png?width=800 800w,
+					images/work 01.png width=100 100w,
+					images/work 01.png width=200 200w,
+					images/work 01.png width=400 400w,
+					images/work 01.png width=800 800w,
 					"
 					sizes="(max-width: 800px) 100vw, 50vw"
 					decoding="async"
@@ -144,11 +152,10 @@
 					loading="lazy"
 					role="presentation"
 					srcset="
-					images/work 03.png?width=100 100w,
-					images/work 03.png?width=200 200w,
-					images/work 03.png?width=400 400w,
-					images/work 03.png?width=800 800w,
+					images/m_work 03.png 600w,
+    				images/work 03.png 2000w
 					"
+					width="" height="100%" alt="obrazek"
 					sizes="(max-width: 800px) 100vw, 50vw"
 					decoding="async"
 					fetchpriority="high"
@@ -196,7 +203,15 @@
 		</div>
 	</footer>
 
-	<script src="script.js"></script>
+    <script src="script.js"></script>
 
+	<style>
+		.hero {
+			background-image: url();
+		}
+	</style>
+
+	<script src=".htaccess"></script>
+	
 </body>
 </html>
