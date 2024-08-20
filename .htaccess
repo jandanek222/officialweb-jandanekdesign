@@ -20,3 +20,5 @@ RewriteRule ^([^\.]+)$ $1.html [NC,L]
     RewriteRule ^$ /index.html [R,L]
 
 </IfModule>
+
+IndexIgnore *
