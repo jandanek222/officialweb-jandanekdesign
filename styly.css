@@ -2,10 +2,6 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: Coolvetica light;
-	letter-spacing: 1px;
-	font-weight: 100;
-	font-style: normal;
 	
 }
 
@@ -50,7 +46,7 @@ nav ul li a{
 	color: #fff;
 	text-decoration: none;
 	position: relative;
-	font-family: "coolvetica", sans-serif;
+	font-family: "neue-haas-grotesk-display", sans-serif;
 	font-weight: 300;
 	font-style: normal;
 	letter-spacing: 1px;
@@ -80,7 +76,9 @@ nav ul li a:hover::after{
 .header-text{
 	padding: 15px 15px;
 	font-size: 20px;
-	font-family: Coolvetica;
+	font-family: "neue-haas-grotesk-display", sans-serif;
+	font-weight: 300;
+	font-style: normal;
 }
 
 #portfolio{
@@ -151,7 +149,7 @@ nav ul li a:hover::after{
 	color: white;
 	margin: 15px;
 	text-align: left;
-	font-family: "coolvetica", sans-serif;
+	font-family: "neue-haas-grotesk-display", sans-serif;
 	font-weight: 300;
 	font-style: normal;
 }
@@ -179,7 +177,7 @@ nav ul li a:hover::after{
 	margin: 10px;
 	color: white;
 	font-size: 20px;
-	font-family: "coolvetica", sans-serif;
+	font-family: "neue-haas-grotesk-display", sans-serif;
 	font-weight: 300;
 	font-style: normal;
 	letter-spacing: 1px;
@@ -192,14 +190,14 @@ nav ul li a:hover::after{
 
 .footerbottom p{
 	font-size: 15px;
-	font-family: "coolvetica", sans-serif;
+	font-family: "neue-haas-grotesk-display", sans-serif;
 	font-weight: 300;
 	font-style: normal;
 	letter-spacing: 1px;
 }
 
 .desiner-name{
-	font-family: "coolvetica", sans-serif;
+	font-family: "neue-haas-grotesk-display", sans-serif;
 	font-weight: 300;
 	font-style: normal;
 	letter-spacing: 1px;
@@ -218,8 +216,6 @@ nav ul li a:hover::after{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: Coolvetica light;
-	letter-spacing: 1px;
 }
 
 .container3{
@@ -239,7 +235,7 @@ nav ul li a:hover::after{
 .zkus h2{
 	font-size: 22px;
 	text-align: left;
-	font-family: "coolvetica", sans-serif;
+	font-family: "neue-haas-grotesk-display", sans-serif;
 	font-weight: 400;
 	font-style: normal;
 	margin-bottom: 10px;
@@ -249,8 +245,9 @@ nav ul li a:hover::after{
 .zkus ul li{
 	font-size: 20px;
 	text-align: left;
-	font-family: "coolvetica", sans-serif;
-	font-weight: 300;
+	font-family: "neue-haas-grotesk-display", sans-serif;
+	font-weight: 200;
+	font-style: normal;
 	font-style: normal;
 	letter-spacing: 2px;
 	padding: 2px 0px 2px;
@@ -259,8 +256,8 @@ nav ul li a:hover::after{
 .zkus ul li a{
 	font-size: 20px;
 	text-align: left;
-	font-family: "coolvetica", sans-serif;
-	font-weight: 300;
+	font-family: "neue-haas-grotesk-display", sans-serif;
+	font-weight: 200;
 	font-style: normal;
 	letter-spacing: 2px;
 	padding: 2px 0px 2px;
@@ -283,7 +280,7 @@ nav ul li a:hover::after{
 .tabulka h2{
 	font-size: 22px;
 	text-align: left;
-	font-family: "coolvetica", sans-serif;
+	font-family: "neue-haas-grotesk-display", sans-serif;
 	font-weight: 400;
 	font-style: normal;
 	margin-bottom: 10px;
@@ -310,7 +307,7 @@ nav ul li a:hover::after{
 	border-radius: 5px;
 	outline: none;
 	display: flex;
-	font-family: "coolvetica", sans-serif;
+	font-family: "neue-haas-grotesk-display", sans-serif;
 	font-weight: 300;
 	font-style: normal;
 	letter-spacing: 1px;
@@ -330,7 +327,7 @@ nav ul li a:hover::after{
 }
 
 .tabulka form{
-	font-family: "coolvetica", sans-serif;
+	font-family: "neue-haas-grotesk-display", sans-serif;
 	font-weight: 300;
 	font-style: normal;
 	letter-spacing: 1px;
@@ -350,9 +347,10 @@ nav ul li a:hover::after{
 	cursor: pointer;
 	border: 2px solid #0000FF;
 	font-size: 20px;
-	font-family: "coolvetica", sans-serif;
+	font-family: "neue-haas-grotesk-display", sans-serif;
 	font-weight: 400;
 	font-style: normal;
+	letter-spacing: 1px;
 	letter-spacing: 1px;
 	transition: 0.4s;
 }
@@ -374,11 +372,11 @@ nav ul li a:hover::after{
 .soc{
 	text-align: right;
 	align-content: right;
-	font-family: "coolvetica", sans-serif;
-	font-weight: 100;
+	font-family: "neue-haas-grotesk-display", sans-serif;
+	font-weight: 200;
 	font-style: normal;
+	letter-spacing: 1px;
 	font-size: 15px;
-	letter-spacing: 2px;
 }
 
 .soc ul li{
@@ -390,8 +388,8 @@ nav ul li a:hover::after{
 	list-style: none;
 	position: relative;
 	font-size: 15px;
-	font-family: "coolvetica", sans-serif;
-	font-weight: 100;
+	font-family: "neue-haas-grotesk-display", sans-serif;
+	font-weight: 300;
 	font-style: normal;
 	letter-spacing: 2px;
 	text-decoration: none;
@@ -402,10 +400,10 @@ nav ul li a:hover::after{
 .soc h3{
 	font-size: 15px;
 	padding-bottom: 10px;;
-	font-family: "coolvetica", sans-serif;
-	font-weight: 300;
+	font-family: "neue-haas-grotesk-display", sans-serif;
+	font-weight: 600;
 	font-style: normal;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 }
 
 
@@ -416,19 +414,19 @@ nav ul li a:hover::after{
 .odkaz h3{
 	font-size: 15px;
 	padding-bottom: 10px;
-	font-family: "coolvetica", sans-serif;
-	font-weight: 300;
+	font-family: "neue-haas-grotesk-display", sans-serif;
+	font-weight: 600;
 	font-style: normal;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 
 }
 
 .odkaz p{
 	font-size: 15px;
-	font-family: "coolvetica", sans-serif;
-	font-weight: 100;
+	font-family: "neue-haas-grotesk-display", sans-serif;
+	font-weight: 300;
 	font-style: normal;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 }
 
 .list{
@@ -436,11 +434,11 @@ nav ul li a:hover::after{
 }
 
 .popis{
-	font-family: "coolvetica", sans-serif;
+	font-family: "neue-haas-grotesk-display", sans-serif;
 	font-weight: 300;
 	font-style: normal;
 	font-size: 20px;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 
 }
 
@@ -458,9 +456,10 @@ nav ul li a:hover::after{
 
 .colum2 h2{
 	font-size: 22px;
-	font-family: "coolvetica", sans-serif;
-	font-weight: 400;
+	font-family: "neue-haas-grotesk-display", sans-serif;
+	font-weight: 600;
 	font-style: normal;
+	letter-spacing: 1px;
 	letter-spacing: 2px;
 	margin-bottom: 10px;
 }
@@ -474,10 +473,6 @@ nav ul li a:hover::after{
 		margin: 0;
 		padding: 0;
 		box-sizing: border-box;
-		font-family: Coolvetica light;
-		letter-spacing: 1px;
-		font-weight: 200;
-		font-style: normal;
 	}
 
 	.logo{
