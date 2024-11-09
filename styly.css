@@ -4,6 +4,9 @@
 	box-sizing: border-box;
 	font-family: Coolvetica light;
 	letter-spacing: 1px;
+	font-weight: 100;
+	font-style: normal;
+	
 }
 
 body{
@@ -465,6 +468,18 @@ nav ul li a:hover::after{
 /*********************************************************************************************TELEFON********************************************************************************/
 
 @media (max-width: 1024px){
+
+
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: Coolvetica light;
+		letter-spacing: 1px;
+		font-weight: 200;
+		font-style: normal;
+	}
+
 	.logo{
 		width: 100px;
 		cursor: pointer;
@@ -682,6 +697,17 @@ nav ul li a:hover::after{
 /*****************************************************************************************************************************************************************************************/
 
 @media (max-width: 820px){
+
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: Coolvetica light;
+		letter-spacing: 1px;
+		font-weight: 200;
+		font-style: normal;
+	}
+
 	.logo{
 		width: 100px;
 		cursor: pointer;
@@ -900,6 +926,16 @@ nav ul li a:hover::after{
 
 @media (max-width: 768px){
 	
+
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: Coolvetica light;
+		letter-spacing: 1px;
+		font-weight: 200;
+		font-style: normal;
+	}
 	.logo{
 		width: 100px;
 		cursor: pointer;
@@ -1127,6 +1163,8 @@ nav ul li a:hover::after{
 		box-sizing: border-box;
 		font-family: Coolvetica light;
 		letter-spacing: 1px;
+		font-weight: 200;
+		font-style: normal;
 	}
 
 	.ou{
@@ -1512,6 +1550,8 @@ nav ul li a:hover::after{
 		box-sizing: border-box;
 		font-family: Coolvetica light;
 		letter-spacing: 1px;
+		font-weight: 200;
+		font-style: normal;
 	}
 
 	.ou{
@@ -1896,6 +1936,8 @@ nav ul li a:hover::after{
 		box-sizing: border-box;
 		font-family: Coolvetica light;
 		letter-spacing: 1px;
+		font-weight: 200;
+		font-style: normal;
 	}
 
 	.ou{
@@ -2281,6 +2323,8 @@ nav ul li a:hover::after{
 		box-sizing: border-box;
 		font-family: Coolvetica light;
 		letter-spacing: 1px;
+		font-weight: 200;
+		font-style: normal;
 	}
 
 	.ou{
@@ -2666,6 +2710,8 @@ nav ul li a:hover::after{
 		box-sizing: border-box;
 		font-family: Coolvetica light;
 		letter-spacing: 1px;
+		font-weight: 200;
+		font-style: normal;
 	}
 
 	.ou{
