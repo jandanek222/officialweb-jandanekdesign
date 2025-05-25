@@ -845,7 +845,7 @@ nav ul li a:hover::after{
 	}
 
 	.header-text{
-		padding: 16px 8px 8px 8px;
+		padding: 8px;
 	}
 
 	.header-text p{
