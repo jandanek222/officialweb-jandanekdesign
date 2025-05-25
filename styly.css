@@ -845,7 +845,7 @@ nav ul li a:hover::after{
 	}
 
 	.header-text{
-		padding: 8px;
+		padding: 16px 8px 8px 8px;
 	}
 
 	.header-text p{
@@ -984,7 +984,7 @@ nav ul li a:hover::after{
 	}
 
 	.header-text{
-		padding: 10px 10px 5px;
+		padding: 16px 8px 8px 8px;
 	}
 
 	.header-text p{
@@ -1124,7 +1124,7 @@ nav ul li a:hover::after{
 	}
 
 	.header-text{
-		padding: 16px 16px 8px 16px;
+		padding: 16px 8px 8px 8px;
 	}
 
 	.header-text p{
@@ -1264,7 +1264,7 @@ nav ul li a:hover::after{
 	}
 
 	.header-text{
-		padding: 16px 16px 8px 16px;
+		padding: 16px 8px 8px 8px;
 	}
 
 	.header-text p{
