@@ -18,7 +18,7 @@ body{
 }
 
 .container{
-	padding: 15px 15px 0px 15px;
+	padding: 16px 16px 0px 16px;
 }
 
 nav{
@@ -66,7 +66,7 @@ nav ul li a:hover::after{
 }
 
 .ou{
-	font-size: 20px;
+	font-size: 16px;
 }
 
 
@@ -87,19 +87,20 @@ nav ul li a:hover::after{
 
 .prace-text p{
 	width: 35%;
-	padding-top: 10px;
+	padding-top: 8px;
 	text-align: left;
-	font-size: 18px;
+	font-size: 16px;
 	font-family: "neue-haas-grotesk-display", sans-serif;
 	font-weight: 300;
 	font-style: normal;
+	padding-bottom: 8px;
 }
 
 .prace-text h2{
 	width: 35%;
 	padding-top: 0px;
 	text-align: left;
-	font-size: 23px;
+	font-size: 24px;
 	font-family: "neue-haas-grotesk-display", sans-serif;
 	font-weight: 600;
 	font-style: normal;
@@ -107,7 +108,7 @@ nav ul li a:hover::after{
 
 .obrazky img{
 	display: flex;
-	margin: 10px 0px 5px;
+	margin: 8px 0px 8px;
 	border-radius: 20px;
 	width: 100%;
 	object-fit: cover;
@@ -120,12 +121,12 @@ nav ul li a:hover::after{
 	border-radius: 20px;
 	display: flex;
 	object-fit: cover;
+	margin-top: 10px;
 }
 
 .grid-container{
 	display: flex;
-	
-	gap: 10px;
+	gap: 8px;
 	flex-wrap: nowrap;
 
 }
@@ -213,11 +214,6 @@ nav ul li a:hover::after{
 /*-------------Tutti--------*/
 
 
-
-.prace-text{
-	padding-bottom: 20px;
-}
-
 .jop2 img{
 	display: block;
 	width: 100%;
@@ -301,7 +297,7 @@ nav ul li a:hover::after{
 	padding: 10px;
 	margin: 10px;
 	color: white;
-	font-size: 20px;
+	font-size: 16px;
 	font-family: "neue-haas-grotesk-display", sans-serif;
 	font-weight: 300;
 	font-style: normal;
@@ -313,7 +309,7 @@ nav ul li a:hover::after{
 }
 
 .footerbottom p{
-	font-size: 15px;
+	font-size: 16px;
 	font-family: "neue-haas-grotesk-display", sans-serif;
 	font-weight: 300;
 	font-style: normal;
@@ -323,7 +319,7 @@ nav ul li a:hover::after{
 	font-family: "neue-haas-grotesk-display", sans-serif;
 	font-weight: 300;
 	font-style: normal;
-	font-size: 15px;
+	font-size: 16px;
 	color: #0000FF;
 }
 
@@ -334,8 +330,8 @@ nav ul li a:hover::after{
 @media (max-width: 1024px){
 	
 	.header-text{
-		padding: 15px 15px;
-		font-size: 18px;
+		padding: 16px 16px 8px 16px;
+		font-size: 16px;
 		font-family: "neue-haas-grotesk-display", sans-serif;
 		font-weight: 300;
 		font-style: normal;
@@ -347,7 +343,7 @@ nav ul li a:hover::after{
 	}
 
 	.ou{
-		font-size: 18px;
+		font-size: 16px;
 	}
 
 	nav ul li a{
@@ -373,24 +369,41 @@ nav ul li a:hover::after{
 		font-family: "neue-haas-grotesk-display", sans-serif;
 		font-weight: 300;
 		font-style: normal;
+		padding-bottom: 8px;
 	}
 
 	.prace-text h2{
-		width: 35%;
+		width: 50%;
 		padding-top: 0px;
 		text-align: left;
-		font-size: 21px;
+		font-size: 24px;
 		font-family: "neue-haas-grotesk-display", sans-serif;
 		font-weight: 600;
 		font-style: normal;
 	}
 
+	.obrazky img{
+		display: block;
+		margin: 0px 0px 10px;
+		border-radius: 8px;
+		width: 100%;
+		object-fit: cover;
+	}
+
+	.jop10 video{
+		width: 100%;
+		border-radius: 8px;
+		display: flex;
+		object-fit: cover;
+		margin: 0px 0px 10px;
+		display: block;
+	}
 
 	.socialmedia a{
 		padding: 10px;
 		margin: 10px;
 		color: white;
-		font-size: 15px;
+		font-size: 16px;
 		font-family: "neue-haas-grotesk-display", sans-serif;
 		font-weight: 300;
 		font-style: normal;
@@ -402,7 +415,7 @@ nav ul li a:hover::after{
 	}
 	
 	.footerbottom p{
-		font-size: 13px;
+		font-size: 16px;
 		font-family: "neue-haas-grotesk-display", sans-serif;
 		font-weight: 300;
 		font-style: normal;
@@ -412,7 +425,7 @@ nav ul li a:hover::after{
 		font-family: "neue-haas-grotesk-display", sans-serif;
 		font-weight: 300;
 		font-style: normal;
-		font-size: 13px;
+		font-size: 16px;
 		color: #0000FF;
 	}
 
@@ -422,41 +435,23 @@ nav ul li a:hover::after{
 
 
 @media (max-width: 900px){
-	.header-text{
-		padding: 15px 15px;
-		font-size: 18px;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
+	.container{
+		padding: 16px 16px 0px 16px;
 	}
 
 	.logo{
-		width: 100px;
-		cursor: pointer;
-	}
-
-	.ou{
-		font-size: 18px;
-	}
-
-	nav ul li a{
-		color: #fff;
-		text-decoration: none;
-		position: relative;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
+		top: 5px;
+		width: 80px;
 	}
 	
-	.footerContainer{
-		width: 100%;
-		padding: 60px 30px 60px;
-		position: absolute;
-	}
 	
+	.prace-text{
+		padding-left: 0px;
+	}
+
 	.prace-text p{
-		width: 50%;
-		padding-top: 10px;
+		width: 100%;
+		padding-top: 8px;
 		text-align: left;
 		font-size: 16px;
 		font-family: "neue-haas-grotesk-display", sans-serif;
@@ -465,24 +460,153 @@ nav ul li a:hover::after{
 	}
 
 	.prace-text h2{
-		width: 35%;
+		width: 100%;
 		padding-top: 0px;
 		text-align: left;
-		font-size: 21px;
+		font-size: 24px;
 		font-family: "neue-haas-grotesk-display", sans-serif;
 		font-weight: 600;
 		font-style: normal;
 	}
 
+	.obrazky img{
+		display: block;
+		margin: 0px 0px 10px;
+		border-radius: 8px;
+		width: 100%;
+		object-fit: cover;
+	}
 
+	.jop10 video{
+		width: 100%;
+		border-radius: 8px;
+		display: flex;
+		object-fit: cover;
+		margin: 0px 0px 10px;
+		display: block;
+	}
+
+	.grid-container{
+		display: block;
+		gap: 10px;
+		flex-wrap: nowrap;
+
+	}
+
+	.colum{
+		display: flex;
+		align-items: stretch;
+	}
+
+	.colum2{
+		display: flex;
+		align-items: stretch;
+		width: 100%;
+	}
+
+	.colum3{
+		display: flex;
+		position: relative;
+		align-items: stretch;
+		width: 100%;
+	}
+
+	.colum4{
+		display: flex;
+		width: 100%;
+	}
+
+	.colum5{
+		display: flex;
+		width: 100%;
+	}
+
+	.colum6{
+		display: flex;
+		position: relative;
+		align-items: stretch;
+		width: 100%;
+	}
+
+	.colum7{
+		display: flex;
+		width: 100%;
+	}
+
+
+	.colum8{
+		display: flex;
+		width: 100%;
+	}
+
+	.colum9{
+		display: flex;
+		width: 100%;
+	}
+
+	.colum10{
+		display: flex;
+		width: 100%;
+	}
+
+	.colum11{
+		display: flex;
+		width: 100%;
+	}
+
+	.colum12{
+		display: flex;
+		width: 100%;
+	}
+
+	.colum13{
+		display: flex;
+		width: 100%;
+	}
+
+	
+
+
+	/*-------------Tutti--------*/
+
+	.prace-text{
+		padding-bottom: 8px;
+	}
+
+
+	/*-------------byci--------*/
+
+	.jop9 video{
+		width: 100%;
+		margin: 0px 0px 5px;
+		border-radius: 8px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	/*-------------footer--------*/
+
+	.footerContainer{
+		width: 100%;
+		padding: 30px 30px 30px;
+		position: absolute;
+	}
+	
+	.socialmedia{
+		display: flex;
+		justify-content: center;
+	}
+	
 	.socialmedia a{
 		padding: 10px;
 		margin: 10px;
 		color: white;
-		font-size: 15px;
+		font-size: 16px;
 		font-family: "neue-haas-grotesk-display", sans-serif;
 		font-weight: 300;
 		font-style: normal;
+		text-decoration: none;
 	}
 	
 	.footerbottom{
@@ -491,7 +615,7 @@ nav ul li a:hover::after{
 	}
 	
 	.footerbottom p{
-		font-size: 13px;
+		font-size: 16px;
 		font-family: "neue-haas-grotesk-display", sans-serif;
 		font-weight: 300;
 		font-style: normal;
@@ -501,7 +625,7 @@ nav ul li a:hover::after{
 		font-family: "neue-haas-grotesk-display", sans-serif;
 		font-weight: 300;
 		font-style: normal;
-		font-size: 13px;
+		font-size: 16px;
 		color: #0000FF;
 	}
 }
@@ -510,41 +634,23 @@ nav ul li a:hover::after{
 
 @media (max-width: 768px){
 
-	.header-text{
-		padding: 15px 15px;
-		font-size: 18px;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
+	.container{
+		padding: 16px 16px 0px 16px;
 	}
 
 	.logo{
-		width: 100px;
-		cursor: pointer;
-	}
-
-	.ou{
-		font-size: 18px;
-	}
-
-	nav ul li a{
-		color: #fff;
-		text-decoration: none;
-		position: relative;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
+		top: 5px;
+		width: 80px;
 	}
 	
-	.footerContainer{
-		width: 100%;
-		padding: 60px 30px 60px;
-		position: absolute;
-	}
 	
+	.prace-text{
+		padding-left: 0px;
+	}
+
 	.prace-text p{
-		width: 50%;
-		padding-top: 10px;
+		width: 100%;
+		padding-top: 8px;
 		text-align: left;
 		font-size: 16px;
 		font-family: "neue-haas-grotesk-display", sans-serif;
@@ -553,24 +659,153 @@ nav ul li a:hover::after{
 	}
 
 	.prace-text h2{
-		width: 35%;
+		width: 100%;
 		padding-top: 0px;
 		text-align: left;
-		font-size: 21px;
+		font-size: 24px;
 		font-family: "neue-haas-grotesk-display", sans-serif;
 		font-weight: 600;
 		font-style: normal;
 	}
 
+	.obrazky img{
+		display: block;
+		margin: 0px 0px 10px;
+		border-radius: 10px;
+		width: 100%;
+		object-fit: cover;
+	}
 
+	.jop10 video{
+		width: 100%;
+		border-radius: 10px;
+		display: flex;
+		object-fit: cover;
+		margin: 0px 0px 10px;
+		display: block;
+	}
+
+	.grid-container{
+		display: block;
+		gap: 10px;
+		flex-wrap: nowrap;
+
+	}
+
+	.colum{
+		display: flex;
+		align-items: stretch;
+	}
+
+	.colum2{
+		display: flex;
+		align-items: stretch;
+		width: 100%;
+	}
+
+	.colum3{
+		display: flex;
+		position: relative;
+		align-items: stretch;
+		width: 100%;
+	}
+
+	.colum4{
+		display: flex;
+		width: 100%;
+	}
+
+	.colum5{
+		display: flex;
+		width: 100%;
+	}
+
+	.colum6{
+		display: flex;
+		position: relative;
+		align-items: stretch;
+		width: 100%;
+	}
+
+	.colum7{
+		display: flex;
+		width: 100%;
+	}
+
+
+	.colum8{
+		display: flex;
+		width: 100%;
+	}
+
+	.colum9{
+		display: flex;
+		width: 100%;
+	}
+
+	.colum10{
+		display: flex;
+		width: 100%;
+	}
+
+	.colum11{
+		display: flex;
+		width: 100%;
+	}
+
+	.colum12{
+		display: flex;
+		width: 100%;
+	}
+
+	.colum13{
+		display: flex;
+		width: 100%;
+	}
+
+	
+
+
+	/*-------------Tutti--------*/
+
+	.prace-text{
+		padding-bottom: 8px;
+	}
+
+
+	/*-------------byci--------*/
+
+	.jop9 video{
+		width: 100%;
+		margin: 0px 0px 5px;
+		border-radius: 10px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	/*-------------footer--------*/
+
+	.footerContainer{
+		width: 100%;
+		padding: 30px 30px 30px;
+		position: absolute;
+	}
+	
+	.socialmedia{
+		display: flex;
+		justify-content: center;
+	}
+	
 	.socialmedia a{
 		padding: 10px;
 		margin: 10px;
 		color: white;
-		font-size: 15px;
+		font-size: 16px;
 		font-family: "neue-haas-grotesk-display", sans-serif;
 		font-weight: 300;
 		font-style: normal;
+		text-decoration: none;
 	}
 	
 	.footerbottom{
@@ -579,7 +814,7 @@ nav ul li a:hover::after{
 	}
 	
 	.footerbottom p{
-		font-size: 13px;
+		font-size: 16px;
 		font-family: "neue-haas-grotesk-display", sans-serif;
 		font-weight: 300;
 		font-style: normal;
@@ -589,7 +824,7 @@ nav ul li a:hover::after{
 		font-family: "neue-haas-grotesk-display", sans-serif;
 		font-weight: 300;
 		font-style: normal;
-		font-size: 13px;
+		font-size: 16px;
 		color: #0000FF;
 	}
 
@@ -599,78 +834,22 @@ nav ul li a:hover::after{
 
 @media (max-width: 430px){
 	
-	.ou{
-		font-size: 14px;
-		padding-bottom: 3px;
-	}
-
-	.container{
-		padding: 15px 10px 0px 10px;
-	}
 
 	.logo{
 		top: 5px;
 		width: 80px;
 	}
 	
-	nav ul li a{
-		color: #fff;
-		text-decoration: none;
-		position: relative;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
-	}
-
-	nav ul li{
-		display: inline-block;
-		list-style: none;
-		margin: 10px 0px;
-		margin-left: 40px;
-	}
-
-	nav ul li a::after{
-		content: ' ';
-		width: 0%;
-		height: 2px;
-		background: #0000FF;
-		position: absolute;
-		left: 0;
-		bottom: 5px;
-		transition: 0.0s;
-
-	}
-
-	nav ul li a:hover::after{
-		width: 100%;
-	}
-
-	.header-text{
-		padding: 15px 10px;
-		font-size: 14px;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
-	}
 	
-	.header-text p{
-		padding: 15px 10px;
-		font-size: 14px;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
-	}
-
-
 	.prace-text{
 		padding-left: 0px;
 	}
 
 	.prace-text p{
 		width: 100%;
-		padding-top: 10px;
+		padding-top: 8px;
 		text-align: left;
-		font-size: 12px;
+		font-size: 15px;
 		font-family: "neue-haas-grotesk-display", sans-serif;
 		font-weight: 300;
 		font-style: normal;
@@ -682,7 +861,7 @@ nav ul li a:hover::after{
 		text-align: left;
 		font-size: 16px;
 		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
+		font-weight: 600;
 		font-style: normal;
 	}
 
@@ -699,6 +878,8 @@ nav ul li a:hover::after{
 		border-radius: 10px;
 		display: flex;
 		object-fit: cover;
+		margin: 0px 0px 10px;
+		display: block;
 	}
 
 	.grid-container{
@@ -784,10 +965,8 @@ nav ul li a:hover::after{
 
 	/*-------------Tutti--------*/
 
-
-
 	.prace-text{
-		padding-bottom: 20px;
+		padding-bottom: 8px;
 	}
 
 
@@ -819,261 +998,11 @@ nav ul li a:hover::after{
 		padding: 10px;
 		margin: 10px;
 		color: white;
-		font-size: 12px;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
-	}
-	
-	.footerbottom{
-		padding: 20px;
-		text-align: center;
-	}
-	
-	.footerbottom p{
-		font-size: 9px;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
-	}
-	
-	.desiner-name{
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
-		font-size: 9px;
-		color: #0000FF;
-	}
-}
-
-/*************************************************************************************************************************************************************************************/
-
-@media (max-width: 414px){
-	
-	.ou{
 		font-size: 14px;
-		padding-bottom: 3px;
-	}
-
-	.container{
-		padding: 15px 10px 0px 10px;
-	}
-
-	.logo{
-		top: 5px;
-		width: 80px;
-	}
-	
-	nav ul li a{
-		color: #fff;
+		font-family: "neue-haas-grotesk-display", sans-serif;
+		font-weight: 300;
+		font-style: normal;
 		text-decoration: none;
-		position: relative;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
-	}
-
-	nav ul li{
-		display: inline-block;
-		list-style: none;
-		margin: 10px 0px;
-		margin-left: 40px;
-	}
-
-	nav ul li a::after{
-		content: ' ';
-		width: 0%;
-		height: 2px;
-		background: #0000FF;
-		position: absolute;
-		left: 0;
-		bottom: 5px;
-		transition: 0.0s;
-
-	}
-
-	nav ul li a:hover::after{
-		width: 100%;
-	}
-
-	.header-text{
-		padding: 15px 10px;
-		font-size: 14px;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
-	}
-	
-	.header-text p{
-		padding: 15px 10px;
-		font-size: 14px;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
-	}
-
-
-	.prace-text{
-		padding-left: 0px;
-	}
-
-	.prace-text p{
-		width: 100%;
-		padding-top: 10px;
-		text-align: left;
-		font-size: 12px;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
-	}
-
-	.prace-text h2{
-		width: 100%;
-		padding-top: 0px;
-		text-align: left;
-		font-size: 16px;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
-	}
-
-	.obrazky img{
-		display: block;
-		margin: 0px 0px 10px;
-		border-radius: 10px;
-		width: 100%;
-		object-fit: cover;
-	}
-
-	.jop10 video{
-		width: 100%;
-		border-radius: 10px;
-		display: flex;
-		object-fit: cover;
-	}
-
-	.grid-container{
-		display: block;
-		gap: 10px;
-		flex-wrap: nowrap;
-
-	}
-
-	.colum{
-		display: flex;
-		align-items: stretch;
-	}
-
-	.colum2{
-		display: flex;
-		align-items: stretch;
-		width: 100%;
-	}
-
-	.colum3{
-		display: flex;
-		position: relative;
-		align-items: stretch;
-		width: 100%;
-	}
-
-	.colum4{
-		display: flex;
-		width: 100%;
-	}
-
-	.colum5{
-		display: flex;
-		width: 100%;
-	}
-
-	.colum6{
-		display: flex;
-		position: relative;
-		align-items: stretch;
-		width: 100%;
-	}
-
-	.colum7{
-		display: flex;
-		width: 100%;
-	}
-
-
-	.colum8{
-		display: flex;
-		width: 100%;
-	}
-
-	.colum9{
-		display: flex;
-		width: 100%;
-	}
-
-	.colum10{
-		display: flex;
-		width: 100%;
-	}
-
-	.colum11{
-		display: flex;
-		width: 100%;
-	}
-
-	.colum12{
-		display: flex;
-		width: 100%;
-	}
-
-	.colum13{
-		display: flex;
-		width: 100%;
-	}
-
-	
-
-
-	/*-------------Tutti--------*/
-
-
-
-	.prace-text{
-		padding-bottom: 20px;
-	}
-
-
-	/*-------------byci--------*/
-
-	.jop9 video{
-		width: 100%;
-		margin: 0px 0px 5px;
-		border-radius: 10px;
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-	/*-------------footer--------*/
-
-	.footerContainer{
-		width: 100%;
-		padding: 30px 30px 30px;
-		position: absolute;
-	}
-	
-	.socialmedia{
-		display: flex;
-		justify-content: center;
-	}
-	
-	.socialmedia a{
-		padding: 10px;
-		margin: 10px;
-		color: white;
-		font-size: 12px;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
 	}
 	
 	.footerbottom{
@@ -1082,7 +1011,7 @@ nav ul li a:hover::after{
 	}
 	
 	.footerbottom p{
-		font-size: 9px;
+		font-size: 14px;
 		font-family: "neue-haas-grotesk-display", sans-serif;
 		font-weight: 300;
 		font-style: normal;
@@ -1092,7 +1021,7 @@ nav ul li a:hover::after{
 		font-family: "neue-haas-grotesk-display", sans-serif;
 		font-weight: 300;
 		font-style: normal;
-		font-size: 9px;
+		font-size: 14px;
 		color: #0000FF;
 	}
 }
@@ -1101,13 +1030,8 @@ nav ul li a:hover::after{
 
 @media (max-width: 395px){
 	
-	.ou{
-		font-size: 13px;
-		padding-bottom: 3px;
-	}
-
 	.container{
-		padding: 15px 10px 0px 10px;
+		padding: 16px 8px 0px 8px;
 	}
 
 	.logo{
@@ -1115,63 +1039,16 @@ nav ul li a:hover::after{
 		width: 80px;
 	}
 	
-	nav ul li a{
-		color: #fff;
-		text-decoration: none;
-		position: relative;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
-	}
-	nav ul li{
-		display: inline-block;
-		list-style: none;
-		margin: 10px 0px;
-		margin-left: 40px;
-	}
-
-	nav ul li a::after{
-		content: ' ';
-		width: 0%;
-		height: 2px;
-		background: #0000FF;
-		position: absolute;
-		left: 0;
-		bottom: 5px;
-		transition: 0.0s;
-
-	}
-
-	nav ul li a:hover::after{
-		width: 100%;
-	}
-
-	.header-text{
-		padding: 15px 10px;
-		font-size: 13px;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
-	}
 	
-	.header-text p{
-		padding: 15px 10px;
-		font-size: 13px;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
-	}
-
-
 	.prace-text{
 		padding-left: 0px;
 	}
 
 	.prace-text p{
 		width: 100%;
-		padding-top: 10px;
+		padding-top: 8px;
 		text-align: left;
-		font-size: 11px;
+		font-size: 15px;
 		font-family: "neue-haas-grotesk-display", sans-serif;
 		font-weight: 300;
 		font-style: normal;
@@ -1181,7 +1058,7 @@ nav ul li a:hover::after{
 		width: 100%;
 		padding-top: 0px;
 		text-align: left;
-		font-size: 15px;
+		font-size: 16px;
 		font-family: "neue-haas-grotesk-display", sans-serif;
 		font-weight: 600;
 		font-style: normal;
@@ -1200,6 +1077,8 @@ nav ul li a:hover::after{
 		border-radius: 10px;
 		display: flex;
 		object-fit: cover;
+		margin: 0px 0px 10px;
+		display: block;
 	}
 
 	.grid-container{
@@ -1285,10 +1164,8 @@ nav ul li a:hover::after{
 
 	/*-------------Tutti--------*/
 
-
-
 	.prace-text{
-		padding-bottom: 20px;
+		padding-bottom: 8px;
 	}
 
 
@@ -1320,10 +1197,11 @@ nav ul li a:hover::after{
 		padding: 10px;
 		margin: 10px;
 		color: white;
-		font-size: 12px;
+		font-size: 14px;
 		font-family: "neue-haas-grotesk-display", sans-serif;
 		font-weight: 300;
 		font-style: normal;
+		text-decoration: none;
 	}
 	
 	.footerbottom{
@@ -1332,7 +1210,7 @@ nav ul li a:hover::after{
 	}
 	
 	.footerbottom p{
-		font-size: 9px;
+		font-size: 14px;
 		font-family: "neue-haas-grotesk-display", sans-serif;
 		font-weight: 300;
 		font-style: normal;
@@ -1342,7 +1220,7 @@ nav ul li a:hover::after{
 		font-family: "neue-haas-grotesk-display", sans-serif;
 		font-weight: 300;
 		font-style: normal;
-		font-size: 9px;
+		font-size: 14px;
 		color: #0000FF;
 	}
 }
@@ -1351,13 +1229,8 @@ nav ul li a:hover::after{
 
 @media (max-width: 375px){
 
-	.ou{
-		font-size: 13px;
-		padding-bottom: 3px;
-	}
-
 	.container{
-		padding: 15px 10px 0px 10px;
+		padding: 16px 8px 0px 8px;
 	}
 
 	.logo{
@@ -1365,63 +1238,16 @@ nav ul li a:hover::after{
 		width: 80px;
 	}
 	
-	nav ul li a{
-		color: #fff;
-		text-decoration: none;
-		position: relative;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
-	}
-	nav ul li{
-		display: inline-block;
-		list-style: none;
-		margin: 10px 0px;
-		margin-left: 40px;
-	}
-
-	nav ul li a::after{
-		content: ' ';
-		width: 0%;
-		height: 2px;
-		background: #0000FF;
-		position: absolute;
-		left: 0;
-		bottom: 5px;
-		transition: 0.0s;
-
-	}
-
-	nav ul li a:hover::after{
-		width: 100%;
-	}
-
-	.header-text{
-		padding: 15px 10px;
-		font-size: 13px;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
-	}
 	
-	.header-text p{
-		padding: 15px 10px;
-		font-size: 13px;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
-	}
-
-
 	.prace-text{
 		padding-left: 0px;
 	}
 
 	.prace-text p{
 		width: 100%;
-		padding-top: 10px;
+		padding-top: 8px;
 		text-align: left;
-		font-size: 11px;
+		font-size: 15px;
 		font-family: "neue-haas-grotesk-display", sans-serif;
 		font-weight: 300;
 		font-style: normal;
@@ -1431,7 +1257,7 @@ nav ul li a:hover::after{
 		width: 100%;
 		padding-top: 0px;
 		text-align: left;
-		font-size: 15px;
+		font-size: 16px;
 		font-family: "neue-haas-grotesk-display", sans-serif;
 		font-weight: 600;
 		font-style: normal;
@@ -1450,6 +1276,8 @@ nav ul li a:hover::after{
 		border-radius: 10px;
 		display: flex;
 		object-fit: cover;
+		margin: 0px 0px 10px;
+		display: block;
 	}
 
 	.grid-container{
@@ -1535,10 +1363,8 @@ nav ul li a:hover::after{
 
 	/*-------------Tutti--------*/
 
-
-
 	.prace-text{
-		padding-bottom: 20px;
+		padding-bottom: 8px;
 	}
 
 
@@ -1570,10 +1396,11 @@ nav ul li a:hover::after{
 		padding: 10px;
 		margin: 10px;
 		color: white;
-		font-size: 12px;
+		font-size: 14px;
 		font-family: "neue-haas-grotesk-display", sans-serif;
 		font-weight: 300;
 		font-style: normal;
+		text-decoration: none;
 	}
 	
 	.footerbottom{
@@ -1582,7 +1409,7 @@ nav ul li a:hover::after{
 	}
 	
 	.footerbottom p{
-		font-size: 9px;
+		font-size: 14px;
 		font-family: "neue-haas-grotesk-display", sans-serif;
 		font-weight: 300;
 		font-style: normal;
@@ -1592,7 +1419,7 @@ nav ul li a:hover::after{
 		font-family: "neue-haas-grotesk-display", sans-serif;
 		font-weight: 300;
 		font-style: normal;
-		font-size: 9px;
+		font-size: 14px;
 		color: #0000FF;
 	}
 }
@@ -1601,13 +1428,8 @@ nav ul li a:hover::after{
 
 @media (max-width: 360px){
 
-	.ou{
-		font-size: 13px;
-		padding-bottom: 3px;
-	}
-
 	.container{
-		padding: 15px 10px 0px 10px;
+		padding: 16px 8px 0px 8px;
 	}
 
 	.logo{
@@ -1615,63 +1437,16 @@ nav ul li a:hover::after{
 		width: 80px;
 	}
 	
-	nav ul li a{
-		color: #fff;
-		text-decoration: none;
-		position: relative;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
-	}
-	nav ul li{
-		display: inline-block;
-		list-style: none;
-		margin: 10px 0px;
-		margin-left: 40px;
-	}
-
-	nav ul li a::after{
-		content: ' ';
-		width: 0%;
-		height: 2px;
-		background: #0000FF;
-		position: absolute;
-		left: 0;
-		bottom: 5px;
-		transition: 0.0s;
-
-	}
-
-	nav ul li a:hover::after{
-		width: 100%;
-	}
-
-	.header-text{
-		padding: 15px 10px;
-		font-size: 13px;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
-	}
 	
-	.header-text p{
-		padding: 15px 10px;
-		font-size: 13px;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
-	}
-
-
 	.prace-text{
 		padding-left: 0px;
 	}
 
 	.prace-text p{
 		width: 100%;
-		padding-top: 10px;
+		padding-top: 8px;
 		text-align: left;
-		font-size: 11px;
+		font-size: 15px;
 		font-family: "neue-haas-grotesk-display", sans-serif;
 		font-weight: 300;
 		font-style: normal;
@@ -1681,7 +1456,7 @@ nav ul li a:hover::after{
 		width: 100%;
 		padding-top: 0px;
 		text-align: left;
-		font-size: 15px;
+		font-size: 16px;
 		font-family: "neue-haas-grotesk-display", sans-serif;
 		font-weight: 600;
 		font-style: normal;
@@ -1700,6 +1475,8 @@ nav ul li a:hover::after{
 		border-radius: 10px;
 		display: flex;
 		object-fit: cover;
+		margin: 0px 0px 10px;
+		display: block;
 	}
 
 	.grid-container{
@@ -1785,10 +1562,8 @@ nav ul li a:hover::after{
 
 	/*-------------Tutti--------*/
 
-
-
 	.prace-text{
-		padding-bottom: 20px;
+		padding-bottom: 8px;
 	}
 
 
@@ -1820,10 +1595,11 @@ nav ul li a:hover::after{
 		padding: 10px;
 		margin: 10px;
 		color: white;
-		font-size: 12px;
+		font-size: 14px;
 		font-family: "neue-haas-grotesk-display", sans-serif;
 		font-weight: 300;
 		font-style: normal;
+		text-decoration: none;
 	}
 	
 	.footerbottom{
@@ -1832,7 +1608,7 @@ nav ul li a:hover::after{
 	}
 	
 	.footerbottom p{
-		font-size: 9px;
+		font-size: 14px;
 		font-family: "neue-haas-grotesk-display", sans-serif;
 		font-weight: 300;
 		font-style: normal;
@@ -1842,7 +1618,7 @@ nav ul li a:hover::after{
 		font-family: "neue-haas-grotesk-display", sans-serif;
 		font-weight: 300;
 		font-style: normal;
-		font-size: 9px;
+		font-size: 14px;
 		color: #0000FF;
 	}
 }
