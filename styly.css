@@ -427,9 +427,8 @@ nav ul li a:hover::after{
 	}
 	
 	.logo{
-		color:#0000FF ;
-		width: 110px;
-		cursor: pointer;
+		top: 5px;
+		width: 80px;
 	}
 	
 	nav ul li{
@@ -627,9 +626,8 @@ nav ul li a:hover::after{
 	}
 	
 	.logo{
-		color:#0000FF ;
-		width: 110px;
-		cursor: pointer;
+		top: 5px;
+		width: 80px;
 	}
 	
 	nav ul li{
