@@ -19,6 +19,9 @@ body{
 
 .container{
 	padding: 16px 16px 0px 16px;
+	max-width: 1400px;
+	margin: 0 auto;
+	width: 100%;
 }
 
 nav{
@@ -85,8 +88,12 @@ nav ul li a:hover::after{
 	padding-left: 00px;
 }
 
+.prace-text{
+	max-width: 700px;
+}
+
 .prace-text p{
-	width: 35%;
+	width: 100%;
 	padding-top: 8px;
 	text-align: left;
 	font-size: 16px;
@@ -97,7 +104,7 @@ nav ul li a:hover::after{
 }
 
 .prace-text h2{
-	width: 35%;
+	width: 100%;
 	padding-top: 0px;
 	text-align: left;
 	font-size: 24px;
@@ -127,8 +134,8 @@ nav ul li a:hover::after{
 .grid-container{
 	display: flex;
 	gap: 8px;
-	flex-wrap: nowrap;
-
+	flex-wrap: wrap;
+	width: 100%;
 }
 
 .item1{
@@ -235,7 +242,8 @@ nav ul li a:hover::after{
 }
 
 .obrazky{
-	flex-grow: 10px;
+	flex-grow: 1;
+	width: 100%;
 }
 
 
@@ -1621,4 +1629,21 @@ nav ul li a:hover::after{
 		font-size: 14px;
 		color: #0000FF;
 	}
+}
+
+/* Ultra-wide monitors */
+@media (min-width: 1600px){
+
+.container{
+	max-width: 1500px;
+}
+
+.prace-text{
+	max-width: 800px;
+}
+
+.grid-container{
+	gap: 12px;
+}
+
 }
