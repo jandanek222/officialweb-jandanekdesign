@@ -97,7 +97,6 @@ nav ul li a:hover::after{
 }
 
 .prace-text h2{
-	width: 35%;
 	padding-top: 0px;
 	text-align: left;
 	font-size: 24px;
@@ -111,7 +110,7 @@ nav ul li a:hover::after{
 	margin: 8px 0px 8px;
 	border-radius: 20px;
 	width: 100%;
-	object-fit: cover;
+	flex-wrap: wrap;
 }
 
 /*-------------theoff.--------*/
@@ -125,9 +124,17 @@ nav ul li a:hover::after{
 }
 
 .grid-container{
-	display: flex;
+	display: grid;
 	gap: 8px;
-	flex-wrap: nowrap;
+	flex-wrap: wrap;
+	grid-template-columns: 50% 50%;
+
+}
+.grid-container2{
+	display: grid;
+	gap: 8px;
+	flex-wrap: wrap;
+	grid-template-columns: 33.3% 33.3% 33.3%;
 
 }
 
@@ -138,136 +145,12 @@ nav ul li a:hover::after{
 .colum{
 	display: flex;
 	align-items: stretch;
-}
-
-.colum2{
-	display: flex;
-	align-items: stretch;
-	width: 50%;
-}
-
-.colum3{
-	display: flex;
-	position: relative;
-	align-items: stretch;
-	width: 40%;
-}
-
-.colum4{
-	display: flex;
-	width: 30%;
-}
-
-.colum5{
-	display: flex;
-	width: 30%;
-}
-
-.colum6{
-	display: flex;
-	position: relative;
-	align-items: stretch;
-	width: 60%;
-}
-
-.colum7{
-	display: flex;
-	width: 40%;
-}
-
-.colum8{
-	display: flex;
-	width: 47%;
-}
-
-.colum9{
-	display: flex;
-	width: 53%;
-}
-
-.colum10{
-	display: flex;
-	width: 43.8%;
-}
-
-.colum11{
-	display: flex;
-	width: 56.2%;
-}
-
-.colum12{
-	display: flex;
-	width: 40%;
-}
-
-.colum13{
-	display: flex;
-	width: 60%;
+	flex-wrap: wrap;
+	flex-direction: column;
 }
 
 
 
-
-
-
-
-/*-------------Tutti--------*/
-
-
-.jop2 img{
-	display: block;
-	width: 100%;
-	margin: 10px 0px 5px;
-	border-radius: 10px;
-}
-
-.jop3 img{
-	display: block;
-	width: 100%;
-	margin: 10px 0px 5px;
-	border-radius: 10px;
-}
-
-/*-------------plakaty--------*/
-
-.po{
-	width: 110%;
-}
-
-.obrazky{
-	flex-grow: 10px;
-}
-
-
-/*-------------no signal--------*/
-.jop5 img{
-	display: block;
-	width: 100%;
-	margin: 10px 0px 5px;
-	border-radius: 10px;
-}
-
-/*-------------no signal--------*/
-
-.jop6 img{
-	display: block;
-	width: 100%;
-	margin: 10px 0px 5px;
-	border-radius: 10px;
-}
-
-/*-------------casopis--------*/
-.jop7 img{
-	width: 50%;
-	
-}
-
-.jop8 img{
-	display: block;
-	width: 100%;
-	margin: 10px 0px 5px;
-	border-radius: 10px;
-}
 
 /*-------------byci--------*/
 
@@ -373,7 +256,6 @@ nav ul li a:hover::after{
 	}
 
 	.prace-text h2{
-		width: 50%;
 		padding-top: 0px;
 		text-align: left;
 		font-size: 24px;
