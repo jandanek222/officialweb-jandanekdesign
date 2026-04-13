@@ -65,6 +65,4 @@ setTimeout(function(){
 
 },50) 
 
-    
-
   

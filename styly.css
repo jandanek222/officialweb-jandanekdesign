@@ -81,8 +81,24 @@ nav ul li a:hover::after{
 	font-style: normal;
 }
 
-#portfolio{
+
+
+.pc{
+    width:100%;
 	padding: 8px 16px 16px;
+	width: 100%;
+	border-radius: 20px;
+	display: flex;
+	object-fit: cover;
+	margin-top: 10px;
+}
+
+.mobil{
+    display:none;
+}
+
+#portfolio{
+	padding: 0px 16px 16px;
 	width: 100%;
 	margin: auto;
 }
@@ -909,6 +925,14 @@ nav ul li a:hover::after{
 		width: 100%;
 	}
 
+	.pc{
+        display:none;
+    }
+    .mobil{
+        width:100%;
+        display:block;
+    }
+
 	.work-container{
 		display: block;
 		gap: 3px;
@@ -1048,6 +1072,13 @@ nav ul li a:hover::after{
 		max-width: 1920px;
 		width: 100%;
 	}
+	.pc{
+        display:none;
+    }
+    .mobile{
+        width:100%;
+        display:block;
+    }
 
 	.work-container{
 		display: block;
@@ -1189,6 +1220,14 @@ nav ul li a:hover::after{
 		width: 100%;
 	}
 
+	.pc{
+        display:none;
+    }
+    .mobile{
+        width:100%;
+        display:block;
+    }
+
 	.work-container{
 		display: block;
 		gap: 3px;
@@ -1280,6 +1319,7 @@ nav ul li a:hover::after{
 		font-style: italic;
 	}
 
+
 	
 	.footerContainer{
 		width: 100%;
@@ -1334,6 +1374,13 @@ nav ul li a:hover::after{
 		gap: 3px;
 		padding-bottom: 3px;
 	}
+	.pc{
+        display:none;
+    }
+    .mobile{
+        width:100%;
+        display:block;
+    }
 
 	.colum{
 		display: flex;
