@@ -44,7 +44,7 @@ nav ul li a{
 	color: #fff;
 	text-decoration: none;
 	position: relative;
-	font-family: "neue-haas-grotesk-display", sans-serif;
+	font-family: "coolvetica", sans-serif;
 	font-weight: 300;
 	font-style: normal;
 }
@@ -73,7 +73,7 @@ nav ul li a:hover::after{
 .header-text{
 	padding: 15px 15px;
 	font-size: 20px;
-	font-family: "neue-haas-grotesk-display", sans-serif;
+	font-family: "coolvetica", sans-serif;
 	font-weight: 300;
 	font-style: normal;
 }
@@ -90,7 +90,7 @@ nav ul li a:hover::after{
 	padding-top: 8px;
 	text-align: left;
 	font-size: 16px;
-	font-family: "neue-haas-grotesk-display", sans-serif;
+	font-family: "coolvetica", sans-serif;
 	font-weight: 300;
 	font-style: normal;
 	padding-bottom: 8px;
@@ -100,14 +100,14 @@ nav ul li a:hover::after{
 	padding-top: 0px;
 	text-align: left;
 	font-size: 24px;
-	font-family: "neue-haas-grotesk-display", sans-serif;
-	font-weight: 600;
+	font-family: "coolvetica", sans-serif;
+	font-weight: 300;
 	font-style: normal;
 }
 
 .obrazky img{
 	display: flex;
-	margin: 8px 0px 8px;
+	margin: 8px 8px 8px;
 	border-radius: 20px;
 	width: 100%;
 	flex-wrap: wrap;
@@ -128,6 +128,7 @@ nav ul li a:hover::after{
 	gap: 8px;
 	flex-wrap: wrap;
 	grid-template-columns: 50% 50%;
+	width:100% ;
 
 }
 .grid-container2{
@@ -147,6 +148,7 @@ nav ul li a:hover::after{
 	align-items: stretch;
 	flex-wrap: wrap;
 	flex-direction: column;
+	width: 100%;
 }
 
 
@@ -181,7 +183,7 @@ nav ul li a:hover::after{
 	margin: 10px;
 	color: white;
 	font-size: 16px;
-	font-family: "neue-haas-grotesk-display", sans-serif;
+	font-family: "coolvetica", sans-serif;
 	font-weight: 300;
 	font-style: normal;
 }
@@ -193,13 +195,13 @@ nav ul li a:hover::after{
 
 .footerbottom p{
 	font-size: 16px;
-	font-family: "neue-haas-grotesk-display", sans-serif;
+	font-family: "coolvetica", sans-serif;
 	font-weight: 300;
 	font-style: normal;
 }
 
 .desiner-name{
-	font-family: "neue-haas-grotesk-display", sans-serif;
+	font-family: "coolvetica", sans-serif;
 	font-weight: 300;
 	font-style: normal;
 	font-size: 16px;
@@ -215,9 +217,6 @@ nav ul li a:hover::after{
 	.header-text{
 		padding: 16px 16px 8px 16px;
 		font-size: 16px;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
 	}
 
 	.logo{
@@ -233,9 +232,6 @@ nav ul li a:hover::after{
 		color: #fff;
 		text-decoration: none;
 		position: relative;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
 	}
 	
 	.footerContainer{
@@ -249,9 +245,6 @@ nav ul li a:hover::after{
 		padding-top: 10px;
 		text-align: left;
 		font-size: 16px;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
 		padding-bottom: 8px;
 	}
 
@@ -259,9 +252,6 @@ nav ul li a:hover::after{
 		padding-top: 0px;
 		text-align: left;
 		font-size: 24px;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 600;
-		font-style: normal;
 	}
 
 	.obrazky img{
@@ -286,9 +276,6 @@ nav ul li a:hover::after{
 		margin: 10px;
 		color: white;
 		font-size: 16px;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
 	}
 	
 	.footerbottom{
@@ -298,15 +285,9 @@ nav ul li a:hover::after{
 	
 	.footerbottom p{
 		font-size: 16px;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
 	}
 	
 	.desiner-name{
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
 		font-size: 16px;
 		color: #0000FF;
 	}
@@ -336,9 +317,6 @@ nav ul li a:hover::after{
 		padding-top: 8px;
 		text-align: left;
 		font-size: 16px;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
 	}
 
 	.prace-text h2{
@@ -346,9 +324,6 @@ nav ul li a:hover::after{
 		padding-top: 0px;
 		text-align: left;
 		font-size: 24px;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 600;
-		font-style: normal;
 	}
 
 	.obrazky img{
@@ -485,9 +460,6 @@ nav ul li a:hover::after{
 		margin: 10px;
 		color: white;
 		font-size: 16px;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
 		text-decoration: none;
 	}
 	
@@ -498,15 +470,9 @@ nav ul li a:hover::after{
 	
 	.footerbottom p{
 		font-size: 16px;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
 	}
 	
 	.desiner-name{
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
 		font-size: 16px;
 		color: #0000FF;
 	}
@@ -535,9 +501,6 @@ nav ul li a:hover::after{
 		padding-top: 8px;
 		text-align: left;
 		font-size: 16px;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
 	}
 
 	.prace-text h2{
@@ -545,9 +508,6 @@ nav ul li a:hover::after{
 		padding-top: 0px;
 		text-align: left;
 		font-size: 24px;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 600;
-		font-style: normal;
 	}
 
 	.obrazky img{
@@ -684,9 +644,6 @@ nav ul li a:hover::after{
 		margin: 10px;
 		color: white;
 		font-size: 16px;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
 		text-decoration: none;
 	}
 	
@@ -697,15 +654,9 @@ nav ul li a:hover::after{
 	
 	.footerbottom p{
 		font-size: 16px;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
 	}
 	
 	.desiner-name{
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
 		font-size: 16px;
 		color: #0000FF;
 	}
@@ -732,9 +683,6 @@ nav ul li a:hover::after{
 		padding-top: 8px;
 		text-align: left;
 		font-size: 15px;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
 	}
 
 	.prace-text h2{
@@ -742,9 +690,6 @@ nav ul li a:hover::after{
 		padding-top: 0px;
 		text-align: left;
 		font-size: 16px;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 600;
-		font-style: normal;
 	}
 
 	.obrazky img{
@@ -881,9 +826,6 @@ nav ul li a:hover::after{
 		margin: 10px;
 		color: white;
 		font-size: 14px;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
 		text-decoration: none;
 	}
 	
@@ -894,15 +836,9 @@ nav ul li a:hover::after{
 	
 	.footerbottom p{
 		font-size: 14px;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
 	}
 	
 	.desiner-name{
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
 		font-size: 14px;
 		color: #0000FF;
 	}
@@ -931,9 +867,7 @@ nav ul li a:hover::after{
 		padding-top: 8px;
 		text-align: left;
 		font-size: 15px;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
+
 	}
 
 	.prace-text h2{
@@ -941,9 +875,6 @@ nav ul li a:hover::after{
 		padding-top: 0px;
 		text-align: left;
 		font-size: 16px;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 600;
-		font-style: normal;
 	}
 
 	.obrazky img{
@@ -1080,9 +1011,6 @@ nav ul li a:hover::after{
 		margin: 10px;
 		color: white;
 		font-size: 14px;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
 		text-decoration: none;
 	}
 	
@@ -1093,15 +1021,9 @@ nav ul li a:hover::after{
 	
 	.footerbottom p{
 		font-size: 14px;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
 	}
 	
 	.desiner-name{
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
 		font-size: 14px;
 		color: #0000FF;
 	}
@@ -1130,9 +1052,7 @@ nav ul li a:hover::after{
 		padding-top: 8px;
 		text-align: left;
 		font-size: 15px;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
+	
 	}
 
 	.prace-text h2{
@@ -1140,9 +1060,7 @@ nav ul li a:hover::after{
 		padding-top: 0px;
 		text-align: left;
 		font-size: 16px;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 600;
-		font-style: normal;
+	
 	}
 
 	.obrazky img{
@@ -1279,9 +1197,7 @@ nav ul li a:hover::after{
 		margin: 10px;
 		color: white;
 		font-size: 14px;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
+
 		text-decoration: none;
 	}
 	
@@ -1292,15 +1208,11 @@ nav ul li a:hover::after{
 	
 	.footerbottom p{
 		font-size: 14px;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
+	
 	}
 	
 	.desiner-name{
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
+
 		font-size: 14px;
 		color: #0000FF;
 	}
@@ -1329,9 +1241,7 @@ nav ul li a:hover::after{
 		padding-top: 8px;
 		text-align: left;
 		font-size: 15px;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
+
 	}
 
 	.prace-text h2{
@@ -1339,9 +1249,7 @@ nav ul li a:hover::after{
 		padding-top: 0px;
 		text-align: left;
 		font-size: 16px;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 600;
-		font-style: normal;
+
 	}
 
 	.obrazky img{
@@ -1478,9 +1386,7 @@ nav ul li a:hover::after{
 		margin: 10px;
 		color: white;
 		font-size: 14px;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
+
 		text-decoration: none;
 	}
 	
@@ -1491,15 +1397,11 @@ nav ul li a:hover::after{
 	
 	.footerbottom p{
 		font-size: 14px;
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
+
 	}
 	
 	.desiner-name{
-		font-family: "neue-haas-grotesk-display", sans-serif;
-		font-weight: 300;
-		font-style: normal;
+	
 		font-size: 14px;
 		color: #0000FF;
 	}
