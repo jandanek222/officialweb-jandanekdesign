@@ -128,7 +128,7 @@ nav ul li a:hover::after{
 	gap: 8px;
 	flex-wrap: wrap;
 	grid-template-columns: 50% 50%;
-	width:100% ;
+	width:100%;
 
 }
 .grid-container2{
@@ -136,6 +136,7 @@ nav ul li a:hover::after{
 	gap: 8px;
 	flex-wrap: wrap;
 	grid-template-columns: 33.3% 33.3% 33.3%;
+	width:100%;
 
 }
 
