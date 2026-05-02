@@ -105,31 +105,29 @@ nav ul li a:hover::after{
 
 .work-container{
 	display: flex;
-	gap: 10px;
+	gap: 8px;
 }
 
 .colum{
 	display: flex;
 	flex-direction: column;
-	gap: 10px;
 	width: 55%;
 }
 
 .colum2{
 	display: flex;
 	flex-direction: column;
-	gap: 10px;
 	width: 45%;
 }
 
 .work-card img{
 	width: 100%;
-	border-radius: 5px;
+	border-radius: 8px;
 }
 
 .work-card video{
 	width: 100%;
-	border-radius: 5px;
+	border-radius: 8px;
 }
 
 
@@ -298,31 +296,29 @@ nav ul li a:hover::after{
 	
 	.work-container{
 		display: flex;
-		gap: 10px;
+		gap: 8px;
 	}
 	
 	.colum{
 		display: flex;
 		flex-direction: column;
-		gap: 10px;
 		width: 55%;
 	}
 	
 	.colum2{
 		display: flex;
 		flex-direction: column;
-		gap: 10px;
 		width: 45%;
 	}
 	
 	.work-card img{
 		width: 100%;
-		border-radius: 5px;
+		border-radius: 8px;
 	}
 	
 	.work-card video{
 		width: 100%;
-		border-radius: 5px;
+		border-radius: 8px;
 	}
 	
 	.sopranos{
@@ -480,31 +476,29 @@ nav ul li a:hover::after{
 	
 	.work-container{
 		display: flex;
-		gap: 10px;
+		gap: 8px;
 	}
 	
 	.colum{
 		display: flex;
 		flex-direction: column;
-		gap: 10px;
 		width: 55%;
 	}
 	
 	.colum2{
 		display: flex;
 		flex-direction: column;
-		gap: 10px;
 		width: 45%;
 	}
 	
 	.work-card img{
 		width: 100%;
-		border-radius: 5px;
+		border-radius: 8px;
 	}
 	
 	.work-card video{
 		width: 100%;
-		border-radius: 5px;
+		border-radius: 8px;
 	}
 	
 	.sopranos{
@@ -629,35 +623,27 @@ nav ul li a:hover::after{
 	
 	.work-container{
 		display: flex;
-		gap: 10px;
+		gap: 8px;
 	}
 	
 	.colum{
 		display: flex;
 		flex-direction: column;
-		gap: 10px;
 		width: 55%;
 	}
 	
 	.colum2{
 		display: flex;
 		flex-direction: column;
-		gap: 10px;
 		width: 45%;
 	}
 	
 	.work-card img{
 		width: 100%;
-		border-radius: 5px;
 	}
 	
 	.work-card video{
 		width: 100%;
-		border-radius: 5px;
-	}
-	
-	.sopranos{
-		width: 600px;
 	}
 	
 	.work-card{
@@ -806,23 +792,18 @@ nav ul li a:hover::after{
 
 	.work-container{
 		display: block;
-		gap: 3px;
-		padding-bottom: 3px;
+		gap: 6px;
 	}
 
 	.colum{
 		display: flex;
 		flex-direction: column;
-		gap: 5px;
-		padding-bottom: 5px;
 		width:100%;
 	}
 
 	.colum2{
 		display: flex;
 		flex-direction: column;
-		gap: 5px;
-		padding-bottom: 10px;
 		width: 100%;
 	}
 	.work-detaily h3{
@@ -886,8 +867,6 @@ nav ul li a:hover::after{
 		font-size: 16px;
 	}
 
-	
-	
 
 	#portfolio{
 		padding: 10px 10px 20px;
@@ -904,23 +883,18 @@ nav ul li a:hover::after{
 
 	.work-container{
 		display: block;
-		gap: 3px;
-		padding-bottom: 3px;
+		gap: 4px;
 	}
 
 	.colum{
 		display: flex;
 		flex-direction: column;
-		gap: 5px;
-		padding-bottom: 5px;
 		width:100%;
 	}
 
 	.colum2{
 		display: flex;
 		flex-direction: column;
-		gap: 5px;
-		padding-bottom: 10px;
 		width: 100%;
 	}
 	.work-detaily h3{
@@ -1003,23 +977,18 @@ nav ul li a:hover::after{
 
 	.work-container{
 		display: block;
-		gap: 3px;
-		padding-bottom: 3px;
+		gap: 4px;
 	}
 
 	.colum{
 		display: flex;
 		flex-direction: column;
-		gap: 5px;
-		padding-bottom: 5px;
 		width:100%;
 	}
 
 	.colum2{
 		display: flex;
 		flex-direction: column;
-		gap: 5px;
-		padding-bottom: 10px;
 		width: 100%;
 	}
 	.work-detaily h3{
@@ -1084,9 +1053,6 @@ nav ul li a:hover::after{
 	}
 
 
-	
-	
-
 	#portfolio{
 		padding: 10px 10px 20px;
 		max-width: 1920px;
@@ -1095,8 +1061,7 @@ nav ul li a:hover::after{
 
 	.work-container{
 		display: block;
-		gap: 3px;
-		padding-bottom: 3px;
+		gap: 4px;
 	}
 	.pc{
         display:none;
@@ -1109,16 +1074,12 @@ nav ul li a:hover::after{
 	.colum{
 		display: flex;
 		flex-direction: column;
-		gap: 5px;
-		padding-bottom: 5px;
 		width:100%;
 	}
 
 	.colum2{
 		display: flex;
 		flex-direction: column;
-		gap: 5px;
-		padding-bottom: 10px;
 		width: 100%;
 	}
 	.work-detaily h3{
