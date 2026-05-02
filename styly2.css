@@ -112,28 +112,33 @@ nav ul li a:hover::after{
 	display: flex;
 	flex-direction: column;
 	width: 50%;
+	gap: 8px;
 }
 
 .colum2{
 	display: flex;
 	flex-direction: column;
 	width: 50%;
+	gap: 8px;
 }
 
 .colum3{
 	display: flex;
 	flex-direction: column;
 	width: 35%;
+	gap: 8px;
 }
 .colum4{
 	display: flex;
 	flex-direction: column;
 	width: 35%;
+	gap: 8px;
 }
 .colum5{
 	display: flex;
 	flex-direction: column;
 	width: 30%;
+	gap: 8px;
 }
 
 .work-card img{
@@ -202,7 +207,7 @@ nav ul li a:hover::after{
 	padding: 8px;
 	margin: 8px;
 	color: white;
-	font-size: 18px;
+	font-size: 16px;
 	font-family: "coolvetica", sans-serif;
 	font-weight: 300;
 	font-style: normal;
@@ -215,7 +220,7 @@ nav ul li a:hover::after{
 }
 
 .footerbottom p{
-	font-size: 16px;
+	font-size: 14px;
 	font-family: "coolvetica", sans-serif;
 	font-weight: 300;
 	font-style: normal;
@@ -225,7 +230,7 @@ nav ul li a:hover::after{
 	font-family: "coolvetica", sans-serif;
 	font-weight: 300;
 	font-style: normal;
-	font-size: 16px;
+	font-size: 14px;
 	color: #0000FF;
 }
 
@@ -358,38 +363,47 @@ nav ul li a:hover::after{
 	/*-------------footer--------*/
 	
 	.footerContainer{
-		width: 100%;
-		padding: 30px 30px 30px;
-		position: absolute;
-	}
-	
-	.socialmedia{
-		display: flex;
-		justify-content: center;
-	}
-	
-	.socialmedia a{
-		padding: 10px;
-		margin: 10px;
-		color: white;
-		font-size: 18px;
-		
-		text-decoration: none;
-	}
-	
-	.footerbottom{
-		padding: 20px;
-		text-align: center;
-	}
-	
-	.footerbottom p{
-		font-size: 16px;
-	}
-	
-	.desiner-name{
-		font-size: 16px;
-		color: #0000FF;
-	}
+	width: 100%;
+	padding: 64px 32px 64px;
+	position: absolute;
+	margin-top: 24px;
+}
+
+.socialmedia{
+	display: flex;
+	justify-content: center;
+}
+
+.socialmedia a{
+	padding: 8px;
+	margin: 8px;
+	color: white;
+	font-size: 16px;
+	font-family: "coolvetica", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	text-decoration: none;
+}
+
+.footerbottom{
+	padding: 16px;
+	text-align: center;
+}
+
+.footerbottom p{
+	font-size: 14px;
+	font-family: "coolvetica", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+}
+
+.desiner-name{
+	font-family: "coolvetica", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 14px;
+	color: #0000FF;
+}
 }
 
 /*****************************************************************************************************************************************************************************************/
@@ -505,37 +519,47 @@ nav ul li a:hover::after{
 	/*-------------footer--------*/
 	
 	.footerContainer{
-		width: 100%;
-		padding: 30px 30px 30px;
-		position: absolute;
-	}
-	
-	.socialmedia{
-		display: flex;
-		justify-content: center;
-	}
-	
-	.socialmedia a{
-		padding: 10px;
-		margin: 10px;
-		color: white;
-		font-size: 18px;
-		text-decoration: none;
-	}
-	
-	.footerbottom{
-		padding: 20px;
-		text-align: center;
-	}
-	
-	.footerbottom p{
-		font-size: 16px;
-	}
-	
-	.desiner-name{
-		font-size: 16px;
-		color: #0000FF;
-	}
+	width: 100%;
+	padding: 64px 32px 64px;
+	position: absolute;
+	margin-top: 24px;
+}
+
+.socialmedia{
+	display: flex;
+	justify-content: center;
+}
+
+.socialmedia a{
+	padding: 8px;
+	margin: 8px;
+	color: white;
+	font-size: 16px;
+	font-family: "coolvetica", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	text-decoration: none;
+}
+
+.footerbottom{
+	padding: 16px;
+	text-align: center;
+}
+
+.footerbottom p{
+	font-size: 14px;
+	font-family: "coolvetica", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+}
+
+.desiner-name{
+	font-family: "coolvetica", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 14px;
+	color: #0000FF;
+}
 
 	.prace-text p{
 		width: 100%;
@@ -631,7 +655,6 @@ nav ul li a:hover::after{
 	
 	.work-container{
 		display: flex;
-		gap: 6px;
 	}
 	
 	.colum{
@@ -687,36 +710,47 @@ nav ul li a:hover::after{
 	/*-------------footer--------*/
 	
 	.footerContainer{
-		width: 100%;
-		padding: 30px 30px 30px;
-		position: absolute;
-	}
-	
-	.socialmedia{
-		display: flex;
-		justify-content: center;
-	}
-	
-	.socialmedia a{
-		padding: 10px;
-		margin: 10px;
-		color: white;
-		font-size: 18px;
-	}
-	
-	.footerbottom{
-		padding: 20px;
-		text-align: center;
-	}
-	
-	.footerbottom p{
-		font-size: 16px;
-	}
-	
-	.desiner-name{
-		font-size: 16px;
-		color: #0000FF;
-	}
+	width: 100%;
+	padding: 64px 32px 64px;
+	position: absolute;
+	margin-top: 24px;
+}
+
+.socialmedia{
+	display: flex;
+	justify-content: center;
+}
+
+.socialmedia a{
+	padding: 8px;
+	margin: 8px;
+	color: white;
+	font-size: 16px;
+	font-family: "coolvetica", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	text-decoration: none;
+}
+
+.footerbottom{
+	padding: 16px;
+	text-align: center;
+}
+
+.footerbottom p{
+	font-size: 14px;
+	font-family: "coolvetica", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+}
+
+.desiner-name{
+	font-family: "coolvetica", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 14px;
+	color: #0000FF;
+}
 }
 	
 
@@ -776,7 +810,7 @@ nav ul li a:hover::after{
 
 	}
 
-		.footerContainer{
+	.footerContainer{
 		width: 100%;
 		padding: 30px 30px 30px;
 		position: absolute;
@@ -791,7 +825,7 @@ nav ul li a:hover::after{
 		padding: 10px;
 		margin: 10px;
 		color: white;
-		font-size: 18px;
+		font-size: 16px;
 		text-decoration: none;
 	}
 	
@@ -801,11 +835,11 @@ nav ul li a:hover::after{
 	}
 	
 	.footerbottom p{
-		font-size: 16px;
+		font-size: 14px;
 	}
 	
 	.desiner-name{
-		font-size: 16px;
+		font-size: 14px;
 		color: #0000FF;
 	}
 
@@ -825,8 +859,6 @@ nav ul li a:hover::after{
 
 	.work-container{
 		display: block;
-		gap: 6px;
-
 	}
 
 
@@ -841,6 +873,7 @@ nav ul li a:hover::after{
 		flex-direction: column;
 		width: 100%;
 	}
+
 	.colum3{
 	display: flex;
 	flex-direction: column;
@@ -919,7 +952,7 @@ nav ul li a:hover::after{
 	}
 
 	
-		.footerContainer{
+	.footerContainer{
 		width: 100%;
 		padding: 30px 30px 30px;
 		position: absolute;
@@ -934,7 +967,7 @@ nav ul li a:hover::after{
 		padding: 10px;
 		margin: 10px;
 		color: white;
-		font-size: 18px;
+		font-size: 16px;
 		text-decoration: none;
 	}
 	
@@ -944,11 +977,11 @@ nav ul li a:hover::after{
 	}
 	
 	.footerbottom p{
-		font-size: 16px;
+		font-size: 14px;
 	}
 	
 	.desiner-name{
-		font-size: 16px;
+		font-size: 14px;
 		color: #0000FF;
 	}
 
@@ -967,7 +1000,6 @@ nav ul li a:hover::after{
 
 	.work-container{
 		display: block;
-		gap: 4px;
 	}
 
 	.colum{
@@ -981,6 +1013,7 @@ nav ul li a:hover::after{
 		flex-direction: column;
 		width: 100%;
 	}
+
 	.prace-text p{
 	width: 35%;
 	padding-top: 8px;
@@ -1069,7 +1102,7 @@ nav ul li a:hover::after{
 		padding: 10px;
 		margin: 10px;
 		color: white;
-		font-size: 18px;
+		font-size: 16px;
 		text-decoration: none;
 	}
 	
@@ -1079,11 +1112,11 @@ nav ul li a:hover::after{
 	}
 	
 	.footerbottom p{
-		font-size: 16px;
+		font-size: 14px;
 	}
 	
 	.desiner-name{
-		font-size: 16px;
+		font-size: 14px;
 		color: #0000FF;
 	}
 
@@ -1103,7 +1136,6 @@ nav ul li a:hover::after{
 
 	.work-container{
 		display: block;
-		gap: 4px;
 	}
 
 	.colum{
@@ -1117,6 +1149,7 @@ nav ul li a:hover::after{
 		flex-direction: column;
 		width: 100%;
 	}
+
 	.prace-text p{
 	width: 35%;
 	padding-top: 8px;
@@ -1179,7 +1212,7 @@ nav ul li a:hover::after{
 	}
 
 	
-		.footerContainer{
+	.footerContainer{
 		width: 100%;
 		padding: 30px 30px 30px;
 		position: absolute;
@@ -1194,7 +1227,7 @@ nav ul li a:hover::after{
 		padding: 10px;
 		margin: 10px;
 		color: white;
-		font-size: 18px;
+		font-size: 16px;
 		text-decoration: none;
 	}
 	
@@ -1204,11 +1237,11 @@ nav ul li a:hover::after{
 	}
 	
 	.footerbottom p{
-		font-size: 16px;
+		font-size: 14px;
 	}
 	
 	.desiner-name{
-		font-size: 16px;
+		font-size: 14px;
 		color: #0000FF;
 	}
 
@@ -1220,7 +1253,6 @@ nav ul li a:hover::after{
 
 	.work-container{
 		display: block;
-		gap: 4px;
 	}
 	.pc{
         display:none;
