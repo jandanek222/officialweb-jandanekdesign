@@ -546,42 +546,10 @@ nav ul li a:hover::after{
 	.odkazy{
 		text-decoration: none;
 	}
+}	
+
 	
-	/*-------------footer--------*/
 	
-	.footerContainer{
-		width: 100%;
-		padding: 30px 30px 30px;
-		position: absolute;
-	}
-	
-	.socialmedia{
-		display: flex;
-		justify-content: center;
-	}
-	
-	.socialmedia a{
-		padding: 10px;
-		margin: 10px;
-		color: white;
-		font-size: 16px;
-		text-decoration: none;
-	}
-	
-	.footerbottom{
-		padding: 20px;
-		text-align: center;
-	}
-	
-	.footerbottom p{
-		font-size: 16px;
-	}
-	
-	.desiner-name{
-		font-size: 16px;
-		color: #0000FF;
-	}
-}
 
 
 
@@ -729,39 +697,8 @@ nav ul li a:hover::after{
 	}
 	
 	/*-------------footer--------*/
-	
-	.footerContainer{
-		width: 100%;
-		padding: 30px 30px 30px;
-		position: absolute;
-	}
-	
-	.socialmedia{
-		display: flex;
-		justify-content: center;
-	}
-	
-	.socialmedia a{
-		padding: 10px;
-		margin: 10px;
-		color: white;
-		font-size: 16px;
-	}
-	
-	.footerbottom{
-		padding: 20px;
-		text-align: center;
-	}
-	
-	.footerbottom p{
-		font-size: 16px;
-	}
-	
-	.desiner-name{
-		font-size: 16px;
-		color: #0000FF;
-	}
-}
+}	
+
 	
 
 
@@ -835,7 +772,7 @@ nav ul li a:hover::after{
 		padding: 10px;
 		margin: 10px;
 		color: white;
-		font-size: 14px;
+		font-size: 16px;
 		text-decoration: none;
 	}
 	
@@ -845,11 +782,11 @@ nav ul li a:hover::after{
 	}
 	
 	.footerbottom p{
-		font-size: 14px;
+		font-size: 16px;
 	}
 	
 	.desiner-name{
-		font-size: 14px;
+		font-size: 16px;
 		color: #0000FF;
 	}
 
@@ -950,38 +887,7 @@ nav ul li a:hover::after{
 	}
 
 	
-	.footerContainer{
-		width: 100%;
-		padding: 30px 30px 30px;
-		position: absolute;
-	}
 	
-	.socialmedia{
-		display: flex;
-		justify-content: center;
-	}
-	
-	.socialmedia a{
-		padding: 10px;
-		margin: 10px;
-		color: white;
-		font-size: 14px;
-		text-decoration: none;
-	}
-	
-	.footerbottom{
-		padding: 20px;
-		text-align: center;
-	}
-	
-	.footerbottom p{
-		font-size: 14px;
-	}
-	
-	.desiner-name{
-		font-size: 14px;
-		color: #0000FF;
-	}
 
 	#portfolio{
 		padding: 10px 10px 20px;
@@ -1079,38 +985,7 @@ nav ul li a:hover::after{
 	}
 
 	
-	.footerContainer{
-		width: 100%;
-		padding: 30px 30px 30px;
-		position: absolute;
-	}
 	
-	.socialmedia{
-		display: flex;
-		justify-content: center;
-	}
-	
-	.socialmedia a{
-		padding: 10px;
-		margin: 10px;
-		color: white;
-		font-size: 14px;
-		text-decoration: none;
-	}
-	
-	.footerbottom{
-		padding: 20px;
-		text-align: center;
-	}
-	
-	.footerbottom p{
-		font-size: 14px;
-	}
-	
-	.desiner-name{
-		font-size: 14px;
-		color: #0000FF;
-	}
 
 	#portfolio{
 		padding: 10px 10px 20px;
@@ -1210,38 +1085,7 @@ nav ul li a:hover::after{
 
 
 	
-	.footerContainer{
-		width: 100%;
-		padding: 30px 30px 30px;
-		position: absolute;
-	}
 	
-	.socialmedia{
-		display: flex;
-		justify-content: center;
-	}
-	
-	.socialmedia a{
-		padding: 10px;
-		margin: 10px;
-		color: white;
-		font-size: 14px;
-		text-decoration: none;
-	}
-	
-	.footerbottom{
-		padding: 20px;
-		text-align: center;
-	}
-	
-	.footerbottom p{
-		font-size: 14px;
-	}
-	
-	.desiner-name{
-		font-size: 14px;
-		color: #0000FF;
-	}
 
 	#portfolio{
 		padding: 10px 10px 20px;
@@ -1286,7 +1130,3 @@ nav ul li a:hover::after{
 }
 
 /*****************************************************************************************************************************************************************************************/
-
-
-
-
