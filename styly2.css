@@ -202,7 +202,7 @@ nav ul li a:hover::after{
 	padding: 8px;
 	margin: 8px;
 	color: white;
-	font-size: 16px;
+	font-size: 18px;
 	font-family: "coolvetica", sans-serif;
 	font-weight: 300;
 	font-style: normal;
@@ -372,7 +372,7 @@ nav ul li a:hover::after{
 		padding: 10px;
 		margin: 10px;
 		color: white;
-		font-size: 16px;
+		font-size: 18px;
 		
 		text-decoration: none;
 	}
@@ -519,7 +519,7 @@ nav ul li a:hover::after{
 		padding: 10px;
 		margin: 10px;
 		color: white;
-		font-size: 16px;
+		font-size: 18px;
 		text-decoration: none;
 	}
 	
@@ -701,7 +701,7 @@ nav ul li a:hover::after{
 		padding: 10px;
 		margin: 10px;
 		color: white;
-		font-size: 16px;
+		font-size: 18px;
 	}
 	
 	.footerbottom{
@@ -776,7 +776,7 @@ nav ul li a:hover::after{
 
 	}
 
-	.footerContainer{
+		.footerContainer{
 		width: 100%;
 		padding: 30px 30px 30px;
 		position: absolute;
@@ -791,7 +791,7 @@ nav ul li a:hover::after{
 		padding: 10px;
 		margin: 10px;
 		color: white;
-		font-size: 14px;
+		font-size: 18px;
 		text-decoration: none;
 	}
 	
@@ -801,11 +801,11 @@ nav ul li a:hover::after{
 	}
 	
 	.footerbottom p{
-		font-size: 14px;
+		font-size: 16px;
 	}
 	
 	.desiner-name{
-		font-size: 14px;
+		font-size: 16px;
 		color: #0000FF;
 	}
 
@@ -919,7 +919,7 @@ nav ul li a:hover::after{
 	}
 
 	
-	.footerContainer{
+		.footerContainer{
 		width: 100%;
 		padding: 30px 30px 30px;
 		position: absolute;
@@ -934,7 +934,7 @@ nav ul li a:hover::after{
 		padding: 10px;
 		margin: 10px;
 		color: white;
-		font-size: 14px;
+		font-size: 18px;
 		text-decoration: none;
 	}
 	
@@ -944,11 +944,11 @@ nav ul li a:hover::after{
 	}
 	
 	.footerbottom p{
-		font-size: 14px;
+		font-size: 16px;
 	}
 	
 	.desiner-name{
-		font-size: 14px;
+		font-size: 16px;
 		color: #0000FF;
 	}
 
@@ -1069,7 +1069,7 @@ nav ul li a:hover::after{
 		padding: 10px;
 		margin: 10px;
 		color: white;
-		font-size: 14px;
+		font-size: 18px;
 		text-decoration: none;
 	}
 	
@@ -1079,11 +1079,11 @@ nav ul li a:hover::after{
 	}
 	
 	.footerbottom p{
-		font-size: 14px;
+		font-size: 16px;
 	}
 	
 	.desiner-name{
-		font-size: 14px;
+		font-size: 16px;
 		color: #0000FF;
 	}
 
@@ -1179,7 +1179,7 @@ nav ul li a:hover::after{
 	}
 
 	
-	.footerContainer{
+		.footerContainer{
 		width: 100%;
 		padding: 30px 30px 30px;
 		position: absolute;
@@ -1194,7 +1194,7 @@ nav ul li a:hover::after{
 		padding: 10px;
 		margin: 10px;
 		color: white;
-		font-size: 14px;
+		font-size: 18px;
 		text-decoration: none;
 	}
 	
@@ -1204,11 +1204,11 @@ nav ul li a:hover::after{
 	}
 	
 	.footerbottom p{
-		font-size: 14px;
+		font-size: 16px;
 	}
 	
 	.desiner-name{
-		font-size: 14px;
+		font-size: 16px;
 		color: #0000FF;
 	}
 
