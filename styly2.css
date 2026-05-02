@@ -105,51 +105,45 @@ nav ul li a:hover::after{
 
 .work-container{
 	display: flex;
-	gap: 10px;
-	margin-bottom: 8px;
+	gap: 8px;
 }
 
 .colum{
 	display: flex;
 	flex-direction: column;
-	gap: 10px;
 	width: 50%;
 }
 
 .colum2{
 	display: flex;
 	flex-direction: column;
-	gap: 10px;
 	width: 50%;
 }
 
 .colum3{
 	display: flex;
 	flex-direction: column;
-	gap: 10px;
 	width: 35%;
 }
 .colum4{
 	display: flex;
 	flex-direction: column;
-	gap: 10px;
 	width: 35%;
 }
 .colum5{
 	display: flex;
 	flex-direction: column;
-	gap: 10px;
 	width: 30%;
 }
 
 .work-card img{
 	width: 100%;
-	border-radius: 5px;
+	border-radius: 8px;
 }
 
 .work-card video{
 	width: 100%;
-	border-radius: 5px;
+	border-radius: 8px;
 }
 
 
@@ -196,6 +190,7 @@ nav ul li a:hover::after{
 	width: 100%;
 	padding: 64px 32px 64px;
 	position: absolute;
+	margin-top: 24px;
 }
 
 .socialmedia{
@@ -315,69 +310,32 @@ nav ul li a:hover::after{
 	
 	.work-container{
 		display: flex;
-		gap: 10px;
+		gap: 8px;
 	}
 	
 	.colum{
 		display: flex;
 		flex-direction: column;
-		gap: 10px;
-		width: 55%;
+		width: 50%;
 	}
 	
 	.colum2{
 		display: flex;
 		flex-direction: column;
-		gap: 10px;
-		width: 45%;
+		width: 50%;
 	}
 	
 	.work-card img{
 		width: 100%;
-		border-radius: 5px;
 	}
 	
 	.work-card video{
 		width: 100%;
-		border-radius: 5px;
-	}
-	
-	.sopranos{
-		width: 600px;
 	}
 	
 	.work-card{
 		position: relative;
 	}
-	
-	.work-detaily{
-		width: 100%;
-		height: 100%;
-		top: 0;
-		left: 0;
-		position: absolute;
-		background: rgba(0, 0, 0, 0.0);
-		display: flex;
-		justify-content: left;
-		flex-direction: column;
-		opacity: 0;
-		transition: 0.0s;
-		text-align: left;
-	}
-	
-	
-	.work-detaily:hover{
-		opacity: 1;
-	}
-	
-	.work-detaily h3{
-		font-size: 30px;
-		color: white;
-		margin: 15px;
-		text-align: left;
-		
-	}
-	
 	
 	.odkazy{
 		text-decoration: none;
@@ -511,66 +469,32 @@ nav ul li a:hover::after{
 	
 	.work-container{
 		display: flex;
-		gap: 10px;
+		gap: 8px;
 	}
 	
 	.colum{
 		display: flex;
 		flex-direction: column;
-		gap: 10px;
-		width: 55%;
+		width: 50%;
 	}
 	
 	.colum2{
 		display: flex;
 		flex-direction: column;
-		gap: 10px;
-		width: 45%;
+		width: 50%;
 	}
 	
 	.work-card img{
 		width: 100%;
-		border-radius: 5px;
 	}
 	
 	.work-card video{
 		width: 100%;
-		border-radius: 5px;
 	}
 	
-	.sopranos{
-		width: 600px;
-	}
 	
 	.work-card{
 		position: relative;
-	}
-	
-	.work-detaily{
-		width: 100%;
-		height: 100%;
-		top: 0;
-		left: 0;
-		position: absolute;
-		background: rgba(0, 0, 0, 0.0);
-		display: flex;
-		justify-content: left;
-		flex-direction: column;
-		opacity: 0;
-		transition: 0.0s;
-		text-align: left;
-	}
-	
-	
-	.work-detaily:hover{
-		opacity: 1;
-	}
-	
-	.work-detaily h3{
-		font-size: 24px;
-		color: white;
-		margin: 15px;
-		text-align: left;
 	}
 	
 	
@@ -707,72 +631,58 @@ nav ul li a:hover::after{
 	
 	.work-container{
 		display: flex;
-		gap: 10px;
+		gap: 6px;
 	}
 	
 	.colum{
 		display: flex;
 		flex-direction: column;
-		gap: 10px;
-		width: 55%;
+		width: 50%;
 	}
 	
 	.colum2{
 		display: flex;
 		flex-direction: column;
-		gap: 10px;
-		width: 45%;
+		width: 50%;
 	}
 	
 	.work-card img{
 		width: 100%;
-		border-radius: 5px;
 	}
 	
 	.work-card video{
 		width: 100%;
-		border-radius: 5px;
 	}
 	
-	.sopranos{
-		width: 600px;
-	}
 	
 	.work-card{
 		position: relative;
 	}
 	
-	.work-detaily{
-		width: 100%;
-		height: 100%;
-		top: 0;
-		left: 0;
-		position: absolute;
-		background: rgba(0, 0, 0, 0.0);
-		display: flex;
-		justify-content: left;
-		flex-direction: column;
-		opacity: 0;
-		transition: 0.0s;
-		text-align: left;
-	}
-	
-	
-	.work-detaily:hover{
-		opacity: 1;
-	}
-	
-	.work-detaily h3{
-		font-size: 24px;
-		color: white;
-		margin: 15px;
-		text-align: left;
-	}
 	
 	
 	.odkazy{
 		text-decoration: none;
 	}
+
+	.prace-text p{
+	width: 35%;
+	padding-top: 8px;
+	text-align: left;
+	font-size: 16px;
+	font-family: "coolvetica", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+}
+
+.prace-text h2{
+	padding-top: 16px;
+	text-align: left;
+	font-size: 24px;
+	font-family: "coolvetica", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+}
 	
 	/*-------------footer--------*/
 	
@@ -915,49 +825,55 @@ nav ul li a:hover::after{
 
 	.work-container{
 		display: block;
-		gap: 3px;
-		padding-bottom: 3px;
+		gap: 6px;
+
 	}
+
 
 	.colum{
 		display: flex;
 		flex-direction: column;
-		gap: 5px;
-		padding-bottom: 5px;
 		width:100%;
 	}
 
 	.colum2{
 		display: flex;
 		flex-direction: column;
-		gap: 5px;
-		padding-bottom: 10px;
 		width: 100%;
 	}
 	.colum3{
 	display: flex;
 	flex-direction: column;
-	gap: 5px;
-	width: 35%;
+	width: 100%;
 	}
 	.colum4{
 	display: flex;
 	flex-direction: column;
-	gap: 5px;
-	width: 35%;
+	width: 100%;
 	}
 	.colum5{
 	display: flex;
 	flex-direction: column;
-	gap: 5px;
-	width: 30%;
+	width: 100%;
 	}
 
-	.work-detaily h3{
-		font-size: 18px;
-		color: white;
-		margin: 15px;
-		text-align: left;
+	.prace-text p{
+	width: 35%;
+	padding-top: 8px;
+	text-align: left;
+	font-size: 16px;
+	font-family: "coolvetica", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	}
+
+	.prace-text h2{
+	padding-top: 16px;
+	text-align: left;
+	font-size: 24px;
+	font-family: "coolvetica", sans-serif;
+	font-weight: 300;
+	font-style: normal;
 	}
 }
 
@@ -1000,18 +916,6 @@ nav ul li a:hover::after{
 
 	nav ul li a:hover::after{
 		width: 100%;
-	}
-
-	.header-text{
-		padding: 16px 8px 8px 8px;
-	}
-
-	.header-text p{
-		font-size: 16px;
-	}
-
-	.header-text p em{
-		font-size: 16px;
 	}
 
 	
@@ -1063,33 +967,39 @@ nav ul li a:hover::after{
 
 	.work-container{
 		display: block;
-		gap: 3px;
-		padding-bottom: 3px;
+		gap: 4px;
 	}
 
 	.colum{
 		display: flex;
 		flex-direction: column;
-		gap: 5px;
-		padding-bottom: 5px;
 		width:100%;
 	}
 
 	.colum2{
 		display: flex;
 		flex-direction: column;
-		gap: 5px;
-		padding-bottom: 10px;
 		width: 100%;
 	}
-	.work-detaily h3{
-		font-size: 24px;
-		color: white;
-		margin: 15px;
-		text-align: left;
+	.prace-text p{
+	width: 35%;
+	padding-top: 8px;
+	text-align: left;
+	font-size: 16px;
+	font-family: "coolvetica", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	}
+
+	.prace-text h2{
+	padding-top: 16px;
+	text-align: left;
+	font-size: 24px;
+	font-family: "coolvetica", sans-serif;
+	font-weight: 300;
+	font-style: normal;
 	}
 }
-
 /*****************************************************************************************************************************************************************************************/
 
 @media (max-width: 375px){
@@ -1193,30 +1103,37 @@ nav ul li a:hover::after{
 
 	.work-container{
 		display: block;
-		gap: 3px;
-		padding-bottom: 3px;
+		gap: 4px;
 	}
 
 	.colum{
 		display: flex;
 		flex-direction: column;
-		gap: 5px;
-		padding-bottom: 5px;
 		width:100%;
 	}
 
 	.colum2{
 		display: flex;
 		flex-direction: column;
-		gap: 5px;
-		padding-bottom: 10px;
 		width: 100%;
 	}
-	.work-detaily h3{
-		font-size: 24px;
-		color: white;
-		margin: 15px;
-		text-align: left;
+	.prace-text p{
+	width: 35%;
+	padding-top: 8px;
+	text-align: left;
+	font-size: 16px;
+	font-family: "coolvetica", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	}
+
+	.prace-text h2{
+	padding-top: 16px;
+	text-align: left;
+	font-size: 24px;
+	font-family: "coolvetica", sans-serif;
+	font-weight: 300;
+	font-style: normal;
 	}
 }
 
@@ -1261,19 +1178,6 @@ nav ul li a:hover::after{
 		width: 100%;
 	}
 
-	.header-text{
-		padding: 16px 8px 8px 8px;
-	}
-
-	.header-text p{
-		font-size: 16px;
-	}
-
-	.header-text p em{
-		font-size: 16px;
-	}
-
-
 	
 	.footerContainer{
 		width: 100%;
@@ -1316,8 +1220,7 @@ nav ul li a:hover::after{
 
 	.work-container{
 		display: block;
-		gap: 3px;
-		padding-bottom: 3px;
+		gap: 4px;
 	}
 	.pc{
         display:none;
@@ -1330,23 +1233,31 @@ nav ul li a:hover::after{
 	.colum{
 		display: flex;
 		flex-direction: column;
-		gap: 5px;
-		padding-bottom: 5px;
 		width:100%;
 	}
 
 	.colum2{
 		display: flex;
 		flex-direction: column;
-		gap: 5px;
-		padding-bottom: 10px;
 		width: 100%;
 	}
-	.work-detaily h3{
-		font-size: 24px;
-		color: white;
-		margin: 15px;
-		text-align: left;
+	.prace-text p{
+	width: 35%;
+	padding-top: 8px;
+	text-align: left;
+	font-size: 16px;
+	font-family: "coolvetica", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	}
+
+	.prace-text h2{
+	padding-top: 16px;
+	text-align: left;
+	font-size: 24px;
+	font-family: "coolvetica", sans-serif;
+	font-weight: 300;
+	font-style: normal;
 	}
 }
 
