@@ -112,14 +112,14 @@ nav ul li a:hover::after{
 	display: flex;
 	flex-direction: column;
 	width: 55%;
-	gap: 8px;
+	margin-bottom: 8px;
 }
 
 .colum2{
 	display: flex;
 	flex-direction: column;
 	width: 45%;
-	gap: 8px;
+	margin-bottom: 8px;
 }
 
 .work-card img{
@@ -306,14 +306,12 @@ nav ul li a:hover::after{
 		display: flex;
 		flex-direction: column;
 		width: 55%;
-		margin-bottom: 8px;
 	}
 	
 	.colum2{
 		display: flex;
 		flex-direction: column;
 		width: 45%;
-		margin-bottom: 8px;
 	}
 	
 	.work-card img{
