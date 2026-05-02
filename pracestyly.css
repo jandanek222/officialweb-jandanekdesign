@@ -243,14 +243,14 @@ nav ul li a:hover::after{
 	
 	.prace-text p{
 		width: 50%;
-		padding-top: 10px;
+		padding-top: 8px;
 		text-align: left;
 		font-size: 16px;
 		padding-bottom: 8px;
 	}
 
 	.prace-text h2{
-		padding-top: 0px;
+		padding-top: 8px;
 		text-align: left;
 		font-size: 24px;
 	}

@@ -106,20 +106,40 @@ nav ul li a:hover::after{
 .work-container{
 	display: flex;
 	gap: 10px;
+	margin-bottom: 8px;
 }
 
 .colum{
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
-	width: 55%;
+	width: 50%;
 }
 
 .colum2{
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
-	width: 45%;
+	width: 50%;
+}
+
+.colum3{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	width: 35%;
+}
+.colum4{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	width: 35%;
+}
+.colum5{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	width: 30%;
 }
 
 .work-card img{
@@ -138,31 +158,28 @@ nav ul li a:hover::after{
 	position: relative;
 }
 
-.work-detaily{
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-	position: absolute;
-	background: rgba(0, 0, 0, 0.0);
-	display: flex;
-	justify-content: left;
-	flex-direction: column;
-	opacity: 0;
-	transition: 0.0s;
+
+
+
+.prace-text{
+	padding-left: 00px;
+	padding-bottom: 16px;
+}
+
+.prace-text p{
+	width: 35%;
+	padding-top: 8px;
 	text-align: left;
+	font-size: 16px;
+	font-family: "coolvetica", sans-serif;
+	font-weight: 300;
+	font-style: normal;
 }
 
-
-.work-detaily:hover{
-	opacity: 1;
-}
-
-.work-detaily h3{
+.prace-text h2{
+	padding-top: 16px;
+	text-align: left;
 	font-size: 24px;
-	color: white;
-	margin: 15px;
-	text-align: left;
 	font-family: "coolvetica", sans-serif;
 	font-weight: 300;
 	font-style: normal;
@@ -354,7 +371,7 @@ nav ul li a:hover::after{
 	}
 	
 	.work-detaily h3{
-		font-size: 24px;
+		font-size: 30px;
 		color: white;
 		margin: 15px;
 		text-align: left;
@@ -364,6 +381,20 @@ nav ul li a:hover::after{
 	
 	.odkazy{
 		text-decoration: none;
+	}
+
+	.prace-text p{
+		width: 50%;
+		padding-top: 8px;
+		text-align: left;
+		font-size: 16px;
+		padding-bottom: 8px;
+	}
+
+	.prace-text h2{
+		padding-top: 8px;
+		text-align: left;
+		font-size: 24px;
 	}
 	
 	/*-------------footer--------*/
@@ -581,6 +612,21 @@ nav ul li a:hover::after{
 		font-size: 16px;
 		color: #0000FF;
 	}
+
+	.prace-text p{
+		width: 100%;
+		padding-top: 8px;
+		text-align: left;
+		font-size: 16px;
+	}
+
+	.prace-text h2{
+		width: 100%;
+		padding-top: 8px;
+		text-align: left;
+		font-size: 24px;
+	}
+
 }
 
 
@@ -888,6 +934,25 @@ nav ul li a:hover::after{
 		padding-bottom: 10px;
 		width: 100%;
 	}
+	.colum3{
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	width: 35%;
+	}
+	.colum4{
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	width: 35%;
+	}
+	.colum5{
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	width: 30%;
+	}
+
 	.work-detaily h3{
 		font-size: 18px;
 		color: white;
