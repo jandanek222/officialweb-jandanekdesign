@@ -376,48 +376,8 @@ nav ul li a:hover::after{
 
 	/*-------------footer--------*/
 	
-	.footerContainer{
-	width: 100%;
-	padding: 64px 32px 64px;
-	position: absolute;
-	margin-top: 24px;
-}
 
-.socialmedia{
-	display: flex;
-	justify-content: center;
-}
 
-.socialmedia a{
-	padding: 8px;
-	margin: 8px;
-	color: white;
-	font-size: 16px;
-	font-family: "coolvetica", sans-serif;
-	font-weight: 300;
-	font-style: normal;
-	text-decoration: none;
-}
-
-.footerbottom{
-	padding: 16px;
-	text-align: center;
-}
-
-.footerbottom p{
-	font-size: 14px;
-	font-family: "coolvetica", sans-serif;
-	font-weight: 300;
-	font-style: normal;
-}
-
-.desiner-name{
-	font-family: "coolvetica", sans-serif;
-	font-weight: 300;
-	font-style: normal;
-	font-size: 14px;
-	color: #0000FF;
-}
 }
 
 /*****************************************************************************************************************************************************************************************/
@@ -532,48 +492,6 @@ nav ul li a:hover::after{
 	
 	/*-------------footer--------*/
 	
-	.footerContainer{
-	width: 100%;
-	padding: 64px 32px 64px;
-	position: absolute;
-	margin-top: 24px;
-}
-
-.socialmedia{
-	display: flex;
-	justify-content: center;
-}
-
-.socialmedia a{
-	padding: 8px;
-	margin: 8px;
-	color: white;
-	font-size: 16px;
-	font-family: "coolvetica", sans-serif;
-	font-weight: 300;
-	font-style: normal;
-	text-decoration: none;
-}
-
-.footerbottom{
-	padding: 16px;
-	text-align: center;
-}
-
-.footerbottom p{
-	font-size: 14px;
-	font-family: "coolvetica", sans-serif;
-	font-weight: 300;
-	font-style: normal;
-}
-
-.desiner-name{
-	font-family: "coolvetica", sans-serif;
-	font-weight: 300;
-	font-style: normal;
-	font-size: 14px;
-	color: #0000FF;
-}
 
 }
 
@@ -692,48 +610,7 @@ nav ul li a:hover::after{
 	
 	/*-------------footer--------*/
 	
-	.footerContainer{
-	width: 100%;
-	padding: 64px 32px 64px;
-	position: absolute;
-	margin-top: 24px;
-}
 
-.socialmedia{
-	display: flex;
-	justify-content: center;
-}
-
-.socialmedia a{
-	padding: 8px;
-	margin: 8px;
-	color: white;
-	font-size: 16px;
-	font-family: "coolvetica", sans-serif;
-	font-weight: 300;
-	font-style: normal;
-	text-decoration: none;
-}
-
-.footerbottom{
-	padding: 16px;
-	text-align: center;
-}
-
-.footerbottom p{
-	font-size: 14px;
-	font-family: "coolvetica", sans-serif;
-	font-weight: 300;
-	font-style: normal;
-}
-
-.desiner-name{
-	font-family: "coolvetica", sans-serif;
-	font-weight: 300;
-	font-style: normal;
-	font-size: 14px;
-	color: #0000FF;
-}
 }
 	
 
@@ -804,26 +681,10 @@ nav ul li a:hover::after{
 		justify-content: center;
 	}
 	
-	.socialmedia a{
-		padding: 10px;
-		margin: 10px;
-		color: white;
-		font-size: 16px;
-		text-decoration: none;
-	}
 	
 	.footerbottom{
 		padding: 20px;
 		text-align: center;
-	}
-	
-	.footerbottom p{
-		font-size: 14px;
-	}
-	
-	.desiner-name{
-		font-size: 14px;
-		color: #0000FF;
 	}
 
 	#portfolio{
@@ -916,7 +777,6 @@ nav ul li a:hover::after{
 		width: 100%;
 	}
 
-	
 	.footerContainer{
 		width: 100%;
 		padding: 30px 30px 30px;
@@ -928,26 +788,10 @@ nav ul li a:hover::after{
 		justify-content: center;
 	}
 	
-	.socialmedia a{
-		padding: 10px;
-		margin: 10px;
-		color: white;
-		font-size: 16px;
-		text-decoration: none;
-	}
 	
 	.footerbottom{
 		padding: 20px;
 		text-align: center;
-	}
-	
-	.footerbottom p{
-		font-size: 14px;
-	}
-	
-	.desiner-name{
-		font-size: 14px;
-		color: #0000FF;
 	}
 
 	#portfolio{
@@ -1045,26 +889,10 @@ nav ul li a:hover::after{
 		justify-content: center;
 	}
 	
-	.socialmedia a{
-		padding: 10px;
-		margin: 10px;
-		color: white;
-		font-size: 16px;
-		text-decoration: none;
-	}
 	
 	.footerbottom{
 		padding: 20px;
 		text-align: center;
-	}
-	
-	.footerbottom p{
-		font-size: 14px;
-	}
-	
-	.desiner-name{
-		font-size: 14px;
-		color: #0000FF;
 	}
 
 	#portfolio{
@@ -1152,26 +980,10 @@ nav ul li a:hover::after{
 		justify-content: center;
 	}
 	
-	.socialmedia a{
-		padding: 10px;
-		margin: 10px;
-		color: white;
-		font-size: 16px;
-		text-decoration: none;
-	}
 	
 	.footerbottom{
 		padding: 20px;
 		text-align: center;
-	}
-	
-	.footerbottom p{
-		font-size: 14px;
-	}
-	
-	.desiner-name{
-		font-size: 14px;
-		color: #0000FF;
 	}
 
 	#portfolio{
