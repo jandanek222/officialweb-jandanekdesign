@@ -516,6 +516,11 @@ nav ul li a:hover::after{
 		background-position: center;
 		background-color: black;
 	}
+
+	.logo{
+		top: 5px;
+		width: 60px;
+	}
 	
 	
 	nav{
@@ -525,10 +530,7 @@ nav ul li a:hover::after{
 		flex-wrap: wrap;
 	}
 	
-	.logo{
-		top: 5px;
-		width: 80px;
-	}
+
 	
 	nav ul li{
 		display: inline-block;
@@ -630,10 +632,6 @@ nav ul li a:hover::after{
 		padding: 16px 8px 0px 8px;
 	}
 
-	.logo{
-		top: 5px;
-		width: 80px;
-	}
 	
 	nav ul li{
 		display: inline-block;
@@ -733,10 +731,7 @@ nav ul li a:hover::after{
 		padding: 16px 8px 0px 8px;
 	}
 
-	.logo{
-		top: 5px;
-		width: 80px;
-	}
+	
 	
 	nav ul li{
 		display: inline-block;
@@ -836,10 +831,7 @@ nav ul li a:hover::after{
 		padding: 16px 8px 0px 8px;
 	}
 
-	.logo{
-		top: 5px;
-		width: 80px;
-	}
+
 	
 	nav ul li{
 		display: inline-block;
@@ -943,10 +935,6 @@ nav ul li a:hover::after{
 		padding: 16px 8px 0px 8px;
 	}
 
-	.logo{
-		top: 5px;
-		width: 80px;
-	}
 	
 	nav ul li{
 		display: inline-block;

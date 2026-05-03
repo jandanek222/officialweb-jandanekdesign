@@ -200,9 +200,9 @@ nav ul li a:hover::after{
     background: #0000FF;
     color: white;
     border-radius: 4px;
-    font-size: 18px;
+    font-size: 16px;
     font-family: "coolvetica", sans-serif;
-    font-weight: 300;
+    font-weight: 200;
     margin: 0;
     white-space: nowrap;
     line-height: 1;
@@ -523,7 +523,7 @@ nav ul li a:hover::after{
 	
 	.logo{
 		top: 5px;
-		width: 80px;
+		width: 60px;
 	}
 	
 	nav ul li{
@@ -629,10 +629,6 @@ nav ul li a:hover::after{
 		padding: 16px 8px 0px 8px;
 	}
 
-	.logo{
-		top: 5px;
-		width: 80px;
-	}
 	
 	nav ul li{
 		display: inline-block;
@@ -749,10 +745,6 @@ nav ul li a:hover::after{
 		padding: 16px 8px 0px 8px;
 	}
 
-	.logo{
-		top: 5px;
-		width: 80px;
-	}
 	
 	nav ul li{
 		display: inline-block;
@@ -837,11 +829,7 @@ nav ul li a:hover::after{
 		padding: 16px 8px 0px 8px;
 	}
 
-	.logo{
-		top: 5px;
-		width: 80px;
-	}
-	
+
 	nav ul li{
 		display: inline-block;
 		list-style: none;
@@ -940,10 +928,6 @@ nav ul li a:hover::after{
 		padding: 16px 8px 0px 8px;
 	}
 
-	.logo{
-		top: 5px;
-		width: 80px;
-	}
 	
 	nav ul li{
 		display: inline-block;
