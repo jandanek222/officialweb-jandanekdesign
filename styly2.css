@@ -619,10 +619,6 @@ nav ul li a:hover::after{
 
 @media (max-width: 430px){
 	
-	.logo{
-		top: 5px;
-		width: 50px;
-	}
 
 	.ou{
 		font-size: 16px;
@@ -741,10 +737,6 @@ nav ul li a:hover::after{
 
 @media (max-width: 395px){
 
-	.logo{
-		top: 5px;
-		width: 50px;
-	}
 
 	.ou{
 		font-size: 16px;
@@ -830,10 +822,6 @@ nav ul li a:hover::after{
 
 @media (max-width: 375px){
 	
-	.logo{
-		top: 5px;
-		width: 50px;
-	}
 
 	.ou{
 		font-size: 16px;
@@ -934,10 +922,6 @@ nav ul li a:hover::after{
 
 @media (max-width: 360px){
 	
-	.logo{
-		top: 5px;
-		width: 50px;
-	}
 
 	.ou{
 		font-size: 16px;

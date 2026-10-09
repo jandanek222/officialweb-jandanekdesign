@@ -668,11 +668,6 @@ nav ul li a:hover::after{
 
 @media (max-width: 430px){
 	
-
-	.logo{
-		top: 5px;
-		width: 80px;
-	}
 	
 	
 	.prace-text{
@@ -851,11 +846,6 @@ nav ul li a:hover::after{
 	
 	.container{
 		padding: 16px 8px 0px 8px;
-	}
-
-	.logo{
-		top: 5px;
-		width: 80px;
 	}
 	
 	
@@ -1038,10 +1028,6 @@ nav ul li a:hover::after{
 		padding: 16px 8px 0px 8px;
 	}
 
-	.logo{
-		top: 5px;
-		width: 80px;
-	}
 	
 	
 	.prace-text{
@@ -1227,11 +1213,6 @@ nav ul li a:hover::after{
 		padding: 16px 8px 0px 8px;
 	}
 
-	.logo{
-		top: 5px;
-		width: 80px;
-	}
-	
 	
 	.prace-text{
 		padding-left: 0px;
